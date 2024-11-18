@@ -1,0 +1,194 @@
+2024-04-12 22:37:17.764 -06:00 [INF] User profile is available. Using 'C:\Users\Ismael\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-04-12 22:37:18.155 -06:00 [INF] Now listening on: https://localhost:7084
+2024-04-12 22:37:18.156 -06:00 [INF] Now listening on: http://localhost:5267
+2024-04-12 22:37:18.159 -06:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-04-12 22:37:18.160 -06:00 [INF] Hosting environment: Development
+2024-04-12 22:37:18.161 -06:00 [INF] Content root path: C:\Users\Ismael\Desktop\Proyecto-Ambiente-Web2\Proyecto\Proyecto.Web
+2024-04-12 22:37:22.104 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7084/ - null null
+2024-04-12 22:37:22.320 -06:00 [INF] Executing endpoint 'Proyecto.Web.Controllers.LoginController.Index (Proyecto.Web)'
+2024-04-12 22:37:22.353 -06:00 [INF] Route matched with {action = "Index", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller Proyecto.Web.Controllers.LoginController (Proyecto.Web).
+2024-04-12 22:37:22.624 -06:00 [INF] Executing action method Proyecto.Web.Controllers.LoginController.Index (Proyecto.Web) - Validation state: "Valid"
+2024-04-12 22:37:22.629 -06:00 [INF] Executed action method Proyecto.Web.Controllers.LoginController.Index (Proyecto.Web), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.4813ms.
+2024-04-12 22:37:22.637 -06:00 [INF] Executing ViewResult, running view Index.
+2024-04-12 22:37:22.793 -06:00 [INF] Executed ViewResult - view Index executed in 156.2325ms.
+2024-04-12 22:37:22.797 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7084/css/site.css?v=1DryApNcoLz6a4X1BJkN1hi6M0Lbxu0bxkswhm4GEN8 - null null
+2024-04-12 22:37:22.797 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7084/MVCAjax.styles.css - null null
+2024-04-12 22:37:22.799 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7084/Images/login_1000997.png - null null
+2024-04-12 22:37:22.811 -06:00 [INF] Executed action Proyecto.Web.Controllers.LoginController.Index (Proyecto.Web) in 456.3736ms
+2024-04-12 22:37:22.817 -06:00 [INF] Executed endpoint 'Proyecto.Web.Controllers.LoginController.Index (Proyecto.Web)'
+2024-04-12 22:37:22.819 -06:00 [INF] The file /css/site.css was not modified
+2024-04-12 22:37:22.819 -06:00 [INF] The file /Images/login_1000997.png was not modified
+2024-04-12 22:37:22.824 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7084/Images/login_1000997.png - 304 null image/png 25.0116ms
+2024-04-12 22:37:22.824 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7084/css/site.css?v=1DryApNcoLz6a4X1BJkN1hi6M0Lbxu0bxkswhm4GEN8 - 304 null text/css 26.3244ms
+2024-04-12 22:37:22.833 -06:00 [INF] Executing endpoint 'Proyecto.Web.Controllers.ErrorController.Error (Proyecto.Web)'
+2024-04-12 22:37:22.834 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7084/ - 200 null text/html; charset=utf-8 736.3291ms
+2024-04-12 22:37:22.845 -06:00 [INF] Route matched with {action = "Error", controller = "Error"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Error(Int32) on controller Proyecto.Web.Controllers.ErrorController (Proyecto.Web).
+2024-04-12 22:37:22.853 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7084/_framework/aspnetcore-browser-refresh.js - null null
+2024-04-12 22:37:22.854 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7084/_vs/browserLink - null null
+2024-04-12 22:37:22.861 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7084/_framework/aspnetcore-browser-refresh.js - 200 13760 application/javascript; charset=utf-8 8.5838ms
+2024-04-12 22:37:22.878 -06:00 [INF] Executing action method Proyecto.Web.Controllers.ErrorController.Error (Proyecto.Web) - Validation state: "Valid"
+2024-04-12 22:37:22.887 -06:00 [INF] Executed action method Proyecto.Web.Controllers.ErrorController.Error (Proyecto.Web), returned result Microsoft.AspNetCore.Mvc.ViewResult in 7.3272ms.
+2024-04-12 22:37:22.889 -06:00 [INF] Executing ViewResult, running view ErrorDetail.
+2024-04-12 22:37:22.915 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7084/_vs/browserLink - 200 null text/javascript; charset=UTF-8 61.8146ms
+2024-04-12 22:37:22.927 -06:00 [INF] Executed ViewResult - view ErrorDetail executed in 38.3953ms.
+2024-04-12 22:37:22.928 -06:00 [INF] Executed action Proyecto.Web.Controllers.ErrorController.Error (Proyecto.Web) in 81.1175ms
+2024-04-12 22:37:22.929 -06:00 [INF] Executed endpoint 'Proyecto.Web.Controllers.ErrorController.Error (Proyecto.Web)'
+2024-04-12 22:37:22.931 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7084/MVCAjax.styles.css - 404 null text/html; charset=utf-8 133.9537ms
+2024-04-12 22:37:22.934 -06:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7084/MVCAjax.styles.css, Response status code: 404
+2024-04-12 22:37:22.990 -06:00 [INF] Request starting HTTP/1.1 GET https://localhost:7084/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map - null null
+2024-04-12 22:37:23.021 -06:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map'. Physical path: 'C:\Users\Ismael\Desktop\Proyecto-Ambiente-Web2\Proyecto\Proyecto.Web\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js.map'
+2024-04-12 22:37:23.023 -06:00 [INF] Request finished HTTP/1.1 GET https://localhost:7084/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map - 200 327261 text/plain 33.1203ms
+2024-04-12 22:39:42.569 -06:00 [INF] User profile is available. Using 'C:\Users\Ismael\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-04-12 22:39:42.986 -06:00 [INF] Now listening on: https://localhost:7084
+2024-04-12 22:39:42.987 -06:00 [INF] Now listening on: http://localhost:5267
+2024-04-12 22:39:42.990 -06:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-04-12 22:39:42.991 -06:00 [INF] Hosting environment: Development
+2024-04-12 22:39:42.992 -06:00 [INF] Content root path: C:\Users\Ismael\Desktop\Proyecto-Ambiente-Web2\Proyecto\Proyecto.Web
+2024-04-12 22:39:46.920 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7084/ - null null
+2024-04-12 22:39:47.109 -06:00 [INF] Executing endpoint 'Proyecto.Web.Controllers.LoginController.Index (Proyecto.Web)'
+2024-04-12 22:39:47.137 -06:00 [INF] Route matched with {action = "Index", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller Proyecto.Web.Controllers.LoginController (Proyecto.Web).
+2024-04-12 22:39:47.409 -06:00 [INF] Executing action method Proyecto.Web.Controllers.LoginController.Index (Proyecto.Web) - Validation state: "Valid"
+2024-04-12 22:39:47.414 -06:00 [INF] Executed action method Proyecto.Web.Controllers.LoginController.Index (Proyecto.Web), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.6394ms.
+2024-04-12 22:39:47.424 -06:00 [INF] Executing ViewResult, running view Index.
+2024-04-12 22:39:47.555 -06:00 [INF] Executed ViewResult - view Index executed in 134.0751ms.
+2024-04-12 22:39:47.559 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7084/MVCAjax.styles.css - null null
+2024-04-12 22:39:47.562 -06:00 [INF] Executed action Proyecto.Web.Controllers.LoginController.Index (Proyecto.Web) in 423.3279ms
+2024-04-12 22:39:47.565 -06:00 [INF] Executed endpoint 'Proyecto.Web.Controllers.LoginController.Index (Proyecto.Web)'
+2024-04-12 22:39:47.572 -06:00 [INF] Executing endpoint 'Proyecto.Web.Controllers.ErrorController.Error (Proyecto.Web)'
+2024-04-12 22:39:47.574 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7084/ - 200 null text/html; charset=utf-8 660.7815ms
+2024-04-12 22:39:47.580 -06:00 [INF] Route matched with {action = "Error", controller = "Error"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Error(Int32) on controller Proyecto.Web.Controllers.ErrorController (Proyecto.Web).
+2024-04-12 22:39:47.607 -06:00 [INF] Executing action method Proyecto.Web.Controllers.ErrorController.Error (Proyecto.Web) - Validation state: "Valid"
+2024-04-12 22:39:47.608 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7084/_framework/aspnetcore-browser-refresh.js - null null
+2024-04-12 22:39:47.608 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7084/_vs/browserLink - null null
+2024-04-12 22:39:47.623 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7084/_framework/aspnetcore-browser-refresh.js - 200 13760 application/javascript; charset=utf-8 14.5652ms
+2024-04-12 22:39:47.624 -06:00 [INF] Executed action method Proyecto.Web.Controllers.ErrorController.Error (Proyecto.Web), returned result Microsoft.AspNetCore.Mvc.ViewResult in 15.3879ms.
+2024-04-12 22:39:47.632 -06:00 [INF] Executing ViewResult, running view ErrorDetail.
+2024-04-12 22:39:47.658 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7084/_vs/browserLink - 200 null text/javascript; charset=UTF-8 50.2215ms
+2024-04-12 22:39:47.671 -06:00 [INF] Executed ViewResult - view ErrorDetail executed in 40.4967ms.
+2024-04-12 22:39:47.673 -06:00 [INF] Executed action Proyecto.Web.Controllers.ErrorController.Error (Proyecto.Web) in 91.9735ms
+2024-04-12 22:39:47.674 -06:00 [INF] Executed endpoint 'Proyecto.Web.Controllers.ErrorController.Error (Proyecto.Web)'
+2024-04-12 22:39:47.677 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7084/MVCAjax.styles.css - 404 null text/html; charset=utf-8 118.3144ms
+2024-04-12 22:39:47.681 -06:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7084/MVCAjax.styles.css, Response status code: 404
+2024-04-12 22:39:47.735 -06:00 [INF] Request starting HTTP/1.1 GET https://localhost:7084/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map - null null
+2024-04-12 22:39:47.755 -06:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map'. Physical path: 'C:\Users\Ismael\Desktop\Proyecto-Ambiente-Web2\Proyecto\Proyecto.Web\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js.map'
+2024-04-12 22:39:47.756 -06:00 [INF] Request finished HTTP/1.1 GET https://localhost:7084/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map - 200 327261 text/plain 20.9946ms
+2024-04-12 22:39:51.389 -06:00 [INF] User profile is available. Using 'C:\Users\Ismael\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-04-12 22:39:51.967 -06:00 [INF] Now listening on: https://localhost:7084
+2024-04-12 22:39:51.967 -06:00 [INF] Now listening on: http://localhost:5267
+2024-04-12 22:39:51.971 -06:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-04-12 22:39:51.972 -06:00 [INF] Hosting environment: Development
+2024-04-12 22:39:51.973 -06:00 [INF] Content root path: C:\Users\Ismael\Desktop\Proyecto-Ambiente-Web2\Proyecto\Proyecto.Web
+2024-04-12 22:39:55.479 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7084/ - null null
+2024-04-12 22:39:55.657 -06:00 [INF] Executing endpoint 'Proyecto.Web.Controllers.LoginController.Index (Proyecto.Web)'
+2024-04-12 22:39:55.687 -06:00 [INF] Route matched with {action = "Index", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller Proyecto.Web.Controllers.LoginController (Proyecto.Web).
+2024-04-12 22:39:55.923 -06:00 [INF] Executing action method Proyecto.Web.Controllers.LoginController.Index (Proyecto.Web) - Validation state: "Valid"
+2024-04-12 22:39:55.928 -06:00 [INF] Executed action method Proyecto.Web.Controllers.LoginController.Index (Proyecto.Web), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.5143ms.
+2024-04-12 22:39:55.936 -06:00 [INF] Executing ViewResult, running view Index.
+2024-04-12 22:39:56.063 -06:00 [INF] Executed ViewResult - view Index executed in 127.1775ms.
+2024-04-12 22:39:56.065 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7084/MVCAjax.styles.css - null null
+2024-04-12 22:39:56.071 -06:00 [INF] Executed action Proyecto.Web.Controllers.LoginController.Index (Proyecto.Web) in 381.9684ms
+2024-04-12 22:39:56.073 -06:00 [INF] Executed endpoint 'Proyecto.Web.Controllers.LoginController.Index (Proyecto.Web)'
+2024-04-12 22:39:56.082 -06:00 [INF] Executing endpoint 'Proyecto.Web.Controllers.ErrorController.Error (Proyecto.Web)'
+2024-04-12 22:39:56.092 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7084/ - 200 null text/html; charset=utf-8 618.3581ms
+2024-04-12 22:39:56.096 -06:00 [INF] Route matched with {action = "Error", controller = "Error"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Error(Int32) on controller Proyecto.Web.Controllers.ErrorController (Proyecto.Web).
+2024-04-12 22:39:56.125 -06:00 [INF] Executing action method Proyecto.Web.Controllers.ErrorController.Error (Proyecto.Web) - Validation state: "Valid"
+2024-04-12 22:39:56.126 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7084/_vs/browserLink - null null
+2024-04-12 22:39:56.126 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7084/_framework/aspnetcore-browser-refresh.js - null null
+2024-04-12 22:39:56.145 -06:00 [INF] Executed action method Proyecto.Web.Controllers.ErrorController.Error (Proyecto.Web), returned result Microsoft.AspNetCore.Mvc.ViewResult in 18.3329ms.
+2024-04-12 22:39:56.149 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7084/_framework/aspnetcore-browser-refresh.js - 200 13760 application/javascript; charset=utf-8 22.9712ms
+2024-04-12 22:39:56.152 -06:00 [INF] Executing ViewResult, running view ErrorDetail.
+2024-04-12 22:39:56.179 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7084/_vs/browserLink - 200 null text/javascript; charset=UTF-8 52.9849ms
+2024-04-12 22:39:56.197 -06:00 [INF] Executed ViewResult - view ErrorDetail executed in 46.2668ms.
+2024-04-12 22:39:56.198 -06:00 [INF] Executed action Proyecto.Web.Controllers.ErrorController.Error (Proyecto.Web) in 100.8076ms
+2024-04-12 22:39:56.200 -06:00 [INF] Executed endpoint 'Proyecto.Web.Controllers.ErrorController.Error (Proyecto.Web)'
+2024-04-12 22:39:56.202 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7084/MVCAjax.styles.css - 404 null text/html; charset=utf-8 137.4521ms
+2024-04-12 22:39:56.205 -06:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7084/MVCAjax.styles.css, Response status code: 404
+2024-04-12 22:39:56.262 -06:00 [INF] Request starting HTTP/1.1 GET https://localhost:7084/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map - null null
+2024-04-12 22:39:56.283 -06:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map'. Physical path: 'C:\Users\Ismael\Desktop\Proyecto-Ambiente-Web2\Proyecto\Proyecto.Web\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js.map'
+2024-04-12 22:39:56.285 -06:00 [INF] Request finished HTTP/1.1 GET https://localhost:7084/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map - 200 327261 text/plain 23.5998ms
+2024-04-12 22:52:33.332 -06:00 [INF] User profile is available. Using 'C:\Users\luisf\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-04-12 22:52:34.605 -06:00 [INF] Now listening on: https://localhost:7084
+2024-04-12 22:52:34.615 -06:00 [INF] Now listening on: http://localhost:5267
+2024-04-12 22:52:34.628 -06:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-04-12 22:52:34.630 -06:00 [INF] Hosting environment: Development
+2024-04-12 22:52:34.633 -06:00 [INF] Content root path: C:\Users\luisf\Desktop\Proyecto-Ambiente-Web2\Proyecto-Ambiente-Web2\Proyecto\Proyecto.Web
+2024-04-12 22:52:39.821 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7084/ - null null
+2024-04-12 22:52:40.848 -06:00 [INF] Cookies was not authenticated. Failure message: Unprotect ticket failed
+2024-04-12 22:52:40.980 -06:00 [INF] Executing endpoint 'Proyecto.Web.Controllers.LoginController.Index (Proyecto.Web)'
+2024-04-12 22:52:41.111 -06:00 [INF] Route matched with {action = "Index", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller Proyecto.Web.Controllers.LoginController (Proyecto.Web).
+2024-04-12 22:52:42.027 -06:00 [INF] Executing action method Proyecto.Web.Controllers.LoginController.Index (Proyecto.Web) - Validation state: "Valid"
+2024-04-12 22:52:42.037 -06:00 [INF] Executed action method Proyecto.Web.Controllers.LoginController.Index (Proyecto.Web), returned result Microsoft.AspNetCore.Mvc.ViewResult in 1.0594ms.
+2024-04-12 22:52:42.056 -06:00 [INF] Executing ViewResult, running view Index.
+2024-04-12 22:52:42.348 -06:00 [INF] Executed ViewResult - view Index executed in 298.0875ms.
+2024-04-12 22:52:42.357 -06:00 [INF] Executed action Proyecto.Web.Controllers.LoginController.Index (Proyecto.Web) in 1241.3176ms
+2024-04-12 22:52:42.360 -06:00 [INF] Executed endpoint 'Proyecto.Web.Controllers.LoginController.Index (Proyecto.Web)'
+2024-04-12 22:52:42.381 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7084/ - 200 null text/html; charset=utf-8 2585.4924ms
+2024-04-12 22:52:42.428 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7084/MVCAjax.styles.css - null null
+2024-04-12 22:52:42.439 -06:00 [INF] Cookies was not authenticated. Failure message: Unprotect ticket failed
+2024-04-12 22:52:42.453 -06:00 [INF] Executing endpoint 'Proyecto.Web.Controllers.ErrorController.Error (Proyecto.Web)'
+2024-04-12 22:52:42.471 -06:00 [INF] Route matched with {action = "Error", controller = "Error"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Error(Int32) on controller Proyecto.Web.Controllers.ErrorController (Proyecto.Web).
+2024-04-12 22:52:42.503 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7084/_framework/aspnetcore-browser-refresh.js - null null
+2024-04-12 22:52:42.527 -06:00 [INF] Executing action method Proyecto.Web.Controllers.ErrorController.Error (Proyecto.Web) - Validation state: "Valid"
+2024-04-12 22:52:42.528 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7084/_vs/browserLink - null null
+2024-04-12 22:52:42.550 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7084/_framework/aspnetcore-browser-refresh.js - 200 13760 application/javascript; charset=utf-8 47.3851ms
+2024-04-12 22:52:42.561 -06:00 [INF] Executed action method Proyecto.Web.Controllers.ErrorController.Error (Proyecto.Web), returned result Microsoft.AspNetCore.Mvc.ViewResult in 28.3412ms.
+2024-04-12 22:52:42.573 -06:00 [INF] Executing ViewResult, running view ErrorDetail.
+2024-04-12 22:52:42.649 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7084/_vs/browserLink - 200 null text/javascript; charset=UTF-8 121.8154ms
+2024-04-12 22:52:42.659 -06:00 [INF] Executed ViewResult - view ErrorDetail executed in 88.0126ms.
+2024-04-12 22:52:42.662 -06:00 [INF] Executed action Proyecto.Web.Controllers.ErrorController.Error (Proyecto.Web) in 187.8785ms
+2024-04-12 22:52:42.664 -06:00 [INF] Executed endpoint 'Proyecto.Web.Controllers.ErrorController.Error (Proyecto.Web)'
+2024-04-12 22:52:42.666 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7084/MVCAjax.styles.css - 404 null text/html; charset=utf-8 238.5473ms
+2024-04-12 22:52:42.671 -06:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7084/MVCAjax.styles.css, Response status code: 404
+2024-04-12 22:53:39.611 -06:00 [INF] Request starting HTTP/2 POST https://localhost:7084/Login/LogIn - application/x-www-form-urlencoded 209
+2024-04-12 22:53:39.667 -06:00 [INF] Cookies was not authenticated. Failure message: Unprotect ticket failed
+2024-04-12 22:53:39.671 -06:00 [INF] Executing endpoint 'Proyecto.Web.Controllers.LoginController.LogIn (Proyecto.Web)'
+2024-04-12 22:53:39.680 -06:00 [INF] Route matched with {action = "LogIn", controller = "Login"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] LogIn(Proyecto.Web.ViewModels.ViewModelLogin) on controller Proyecto.Web.Controllers.LoginController (Proyecto.Web).
+2024-04-12 22:53:39.733 -06:00 [INF] Executing action method Proyecto.Web.Controllers.LoginController.LogIn (Proyecto.Web) - Validation state: "Valid"
+2024-04-12 22:53:41.803 -06:00 [INF] Executed DbCommand (209ms) [Parameters=[@__id_0='admin' (Size = 20) (DbType = AnsiString), @__password_1='w066/Gja+QzxE463wHEofQ==' (Size = 50) (DbType = AnsiString)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Login], [u].[Apellidos], [u].[Estado], [u].[IdPerfil], [u].[Nombre], [u].[Password], [p].[IdPerfil], [p].[DescripcionPerfil]
+FROM [Usuario] AS [u]
+INNER JOIN [Perfil] AS [p] ON [u].[IdPerfil] = [p].[IdPerfil]
+WHERE [u].[Login] = @__id_0 AND [u].[Password] = @__password_1
+2024-04-12 22:53:42.040 -06:00 [INF] AuthenticationScheme: Cookies signed in.
+2024-04-12 22:53:42.046 -06:00 [INF] Conexion correcta de admin
+2024-04-12 22:53:42.052 -06:00 [INF] Executed action method Proyecto.Web.Controllers.LoginController.LogIn (Proyecto.Web), returned result Microsoft.AspNetCore.Mvc.RedirectToActionResult in 2315.8727ms.
+2024-04-12 22:53:42.071 -06:00 [INF] Executing RedirectResult, redirecting to /Home.
+2024-04-12 22:53:42.074 -06:00 [INF] Executed action Proyecto.Web.Controllers.LoginController.LogIn (Proyecto.Web) in 2391.0149ms
+2024-04-12 22:53:42.080 -06:00 [INF] Executed endpoint 'Proyecto.Web.Controllers.LoginController.LogIn (Proyecto.Web)'
+2024-04-12 22:53:42.114 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7084/Home - null null
+2024-04-12 22:53:42.118 -06:00 [INF] Request finished HTTP/2 POST https://localhost:7084/Login/LogIn - 302 0 null 2506.858ms
+2024-04-12 22:53:42.234 -06:00 [INF] Executing endpoint 'Proyecto.Web.Controllers.HomeController.Index (Proyecto.Web)'
+2024-04-12 22:53:42.239 -06:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller Proyecto.Web.Controllers.HomeController (Proyecto.Web).
+2024-04-12 22:53:42.296 -06:00 [INF] Executing action method Proyecto.Web.Controllers.HomeController.Index (Proyecto.Web) - Validation state: "Valid"
+2024-04-12 22:53:42.302 -06:00 [INF] Executed action method Proyecto.Web.Controllers.HomeController.Index (Proyecto.Web), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.3919ms.
+2024-04-12 22:53:42.309 -06:00 [INF] Executing ViewResult, running view Index.
+2024-04-12 22:53:42.372 -06:00 [INF] Executed ViewResult - view Index executed in 67.1555ms.
+2024-04-12 22:53:42.389 -06:00 [INF] Executed action Proyecto.Web.Controllers.HomeController.Index (Proyecto.Web) in 146.2833ms
+2024-04-12 22:53:42.398 -06:00 [INF] Executed endpoint 'Proyecto.Web.Controllers.HomeController.Index (Proyecto.Web)'
+2024-04-12 22:53:42.404 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7084/Home - 200 null text/html; charset=utf-8 288.1614ms
+2024-04-12 22:53:42.471 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7084/_framework/aspnetcore-browser-refresh.js - null null
+2024-04-12 22:53:42.474 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7084/_vs/browserLink - null null
+2024-04-12 22:53:42.472 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7084/js/autocompleteBS.js - null null
+2024-04-12 22:53:42.470 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7084/css/autocompleteBS.css - null null
+2024-04-12 22:53:42.510 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7084/_framework/aspnetcore-browser-refresh.js - 200 13760 application/javascript; charset=utf-8 38.3726ms
+2024-04-12 22:53:42.562 -06:00 [INF] Executing endpoint 'Proyecto.Web.Controllers.ErrorController.Error (Proyecto.Web)'
+2024-04-12 22:53:42.565 -06:00 [INF] Executing endpoint 'Proyecto.Web.Controllers.ErrorController.Error (Proyecto.Web)'
+2024-04-12 22:53:42.602 -06:00 [INF] Route matched with {action = "Error", controller = "Error"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Error(Int32) on controller Proyecto.Web.Controllers.ErrorController (Proyecto.Web).
+2024-04-12 22:53:42.605 -06:00 [INF] Route matched with {action = "Error", controller = "Error"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Error(Int32) on controller Proyecto.Web.Controllers.ErrorController (Proyecto.Web).
+2024-04-12 22:53:42.649 -06:00 [INF] Executing action method Proyecto.Web.Controllers.ErrorController.Error (Proyecto.Web) - Validation state: "Valid"
+2024-04-12 22:53:42.708 -06:00 [INF] Executing action method Proyecto.Web.Controllers.ErrorController.Error (Proyecto.Web) - Validation state: "Valid"
+2024-04-12 22:53:42.708 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7084/_vs/browserLink - 200 null text/javascript; charset=UTF-8 183.065ms
+2024-04-12 22:53:42.709 -06:00 [INF] Executed action method Proyecto.Web.Controllers.ErrorController.Error (Proyecto.Web), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.0771ms.
+2024-04-12 22:53:42.711 -06:00 [INF] Executed action method Proyecto.Web.Controllers.ErrorController.Error (Proyecto.Web), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.0364ms.
+2024-04-12 22:53:42.720 -06:00 [INF] Executing ViewResult, running view ErrorDetail.
+2024-04-12 22:53:42.723 -06:00 [INF] Executing ViewResult, running view ErrorDetail.
+2024-04-12 22:53:42.734 -06:00 [INF] Executed ViewResult - view ErrorDetail executed in 10.978ms.
+2024-04-12 22:53:42.734 -06:00 [INF] Executed ViewResult - view ErrorDetail executed in 14.1035ms.
+2024-04-12 22:53:42.746 -06:00 [INF] Executed action Proyecto.Web.Controllers.ErrorController.Error (Proyecto.Web) in 92.7046ms
+2024-04-12 22:53:42.746 -06:00 [INF] Executed action Proyecto.Web.Controllers.ErrorController.Error (Proyecto.Web) in 138.4197ms
+2024-04-12 22:53:42.757 -06:00 [INF] Executed endpoint 'Proyecto.Web.Controllers.ErrorController.Error (Proyecto.Web)'
+2024-04-12 22:53:42.759 -06:00 [INF] Executed endpoint 'Proyecto.Web.Controllers.ErrorController.Error (Proyecto.Web)'
+2024-04-12 22:53:42.764 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7084/css/autocompleteBS.css - 404 null text/html; charset=utf-8 294.0786ms
+2024-04-12 22:53:42.764 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7084/js/autocompleteBS.js - 404 null text/html; charset=utf-8 293.8289ms
+2024-04-12 22:53:42.769 -06:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7084/css/autocompleteBS.css, Response status code: 404
+2024-04-12 22:53:42.775 -06:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7084/js/autocompleteBS.js, Response status code: 404

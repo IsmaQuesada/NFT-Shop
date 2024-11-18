@@ -1,0 +1,97 @@
+﻿@model Proyecto.Application.DTOs.PaisDTO
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Crear Pais</h1>
+
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create" id="crear">
+            @Html.AntiForgeryToken()
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="IdPais" class="control-label"></label>
+                <input asp-for="IdPais" class="form-control" />
+                <span asp-validation-for="IdPais" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Descripcion" class="control-label"></label>
+                <input asp-for="Descripcion" class="form-control" />
+                <span asp-validation-for="Descripcion" class="text-danger"></span>
+            </div>
+            <br />
+            <div class="form-group">
+                <input id="btnCrear" type="submit" value="Create" class="btn btn-primary" />
+                |
+                <a asp-action="Index" class="btn btn-success">Regresar</a>
+            </div>
+        </form>
+    </div>
+</div>
+
+@if (ViewData["Mensaje"] != null)
+{
+    String mensaje = ViewData["Mensaje"] != null ? ViewData["Mensaje"]!.ToString()! : " ";
+    <div class="alert alert-danger alert-dismissible fade show" role="alert">
+        <i class="bi bi-exclamation-triangle-fill"></i>
+        @mensaje
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>
+}
+
+<br />
+<div id="contenedor"></div>
+<div id="loader" class="xxxx"></div>
+<br />
+
+@section Scripts {
+    <script type="text/javascript">
+
+        document.getElementById("crear").addEventListener("submit", function (event) {
+
+            event.preventDefault();
+            event.stopPropagation();
+
+            if (event.target.checkValidity()) {
+
+                var idPais = document.getElementById("IdPais").value.trim();
+                var descripcion = document.getElementById("Descripcion").value.trim();
+
+                if (idPais !== "" && descripcion !== "") {
+
+                    Swal.fire({
+                        title: '¿Estás seguro?',
+                        text: '¿Deseas crear este Pais?',
+                        icon: 'question',
+                        showCancelButton: true,
+                        confirmButtonColor: '#3085d6',
+                        cancelButtonColor: '#d33',
+                        confirmButtonText: 'Sí, guardar cambios',
+                        cancelButtonText: 'Cancelar'
+
+                    }).then((result) => {
+
+                        if (result.isConfirmed) {
+                            onBegin();
+                            setTimeout(function () {
+                                document.getElementById('crear').submit();
+                            }, 1000);
+                        }
+                    });
+                }
+            }
+        });
+
+        function onBegin() {
+            console.log("onBegin")
+            document.getElementById("loader").className = "loading";
+        }
+    </script>
+
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

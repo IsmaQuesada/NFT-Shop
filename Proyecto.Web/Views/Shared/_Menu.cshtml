@@ -1,0 +1,85 @@
+﻿<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+        <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">NFT SHOP</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                @if (User.IsInRole("Admin") || User.IsInRole("Procesos"))
+                {
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="mantenimientosDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Mantenimientos
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="mantenimientosDropdown">
+                            <li><a class="dropdown-item" href="@Url.Action("Index","Pais")">Pais</a></li>
+                            <li><a class="dropdown-item" href="@Url.Action("Index","Cliente" )">Cliente</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="@Url.Action("Index","NFT")">NFT</a></li>
+                            <li><a class="dropdown-item" href="@Url.Action("Index","Tarjeta")">Tarjeta</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="procesosDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Procesos
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="procesosDropdown">
+                            <li><a class="dropdown-item" href="@Url.Action("Index", "Factura")">Facturación</a></li>
+                            <li><a class="dropdown-item" href="@Url.Action("AnularFacturaIndex", "Factura" )">Anular Factura</a></li>
+                        </ul>
+                    </li>
+                }
+                @if (User.IsInRole("Admin") || User.IsInRole("Reportes"))
+                {
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="reportesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Reportes
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="reportesDropdown">
+                            <li><a class="dropdown-item" href="@Url.Action("ClienteReportByNFT", "Reportes" )">Dueño NFT </a></li>
+                            <li><a class="dropdown-item" href="@Url.Action("ReporteClientes", "Reportes")">Lista de clientes</a></li>
+                            <li><a class="dropdown-item" href="@Url.Action("ReporteNFTs", "Reportes")">Lista de NFTs</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="@Url.Action("GraficoVentas", "Grafico")">Grafico de ventas</a></li>
+                            <li><a class="dropdown-item" href="@Url.Action("ReporteVentasByFecha", "Reportes")">Lista de ventas por fecha</a></li>
+                        </ul>
+                    </li>
+                }
+                @if (User.IsInRole("Admin"))
+                {
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="seguridadDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Seguridad
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="seguridadDropdown">
+                            <li><a class="dropdown-item" href="@Url.Action("Index", "Usuario")">Usuario</a></li>
+                        </ul>
+                    </li>
+                }
+                @if (User.IsInRole("Admin"))
+                {
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="seguridadDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Calificación
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="seguridadDropdown">
+                            <li><a class="dropdown-item" href="@Url.Action("Index", "Calificacion")">Calificación</a></li>
+                        </ul>
+                    </li>
+                }
+                <li class="nav-item">
+                    <a class="nav-link" asp-area="" asp-controller="Login" asp-action="LogOff">Salir</a>
+
+                </li>
+
+            </ul>
+
+        </div>
+        <div class="d-flex align-items-center justify-content-center" style="text-align:center">
+            <a class="align-self-center" style="color:white">@User.Identity!.Name</a>
+            <img class="rounded-circle mx-2" src="/Images/user.png" alt="@User.Identity!.Name" width="35px" height="35px" />
+        </div>
+    </div>
+</nav>

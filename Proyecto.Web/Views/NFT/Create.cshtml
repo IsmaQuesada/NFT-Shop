@@ -1,0 +1,100 @@
+﻿@model Proyecto.Application.DTOs.NFTDTO
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Crear NFT</h1>
+
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create" enctype="multipart/form-data" id="crear">
+            @Html.AntiForgeryToken()         
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Nombre" class="control-label"></label>
+                <input asp-for="Nombre" class="form-control" />
+                <span asp-validation-for="Nombre" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Autor" class="control-label"></label>
+                <input asp-for="Autor" class="form-control" />
+                <span asp-validation-for="Autor" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Precio" class="control-label"></label>
+                <input asp-for="Precio" class="form-control" />
+                <span asp-validation-for="Precio" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Inventario" class="control-label"></label>
+                <input asp-for="Inventario" class="form-control" />
+                <span asp-validation-for="Inventario" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Imagen" class="control-label"></label>
+                <input type="file" class="form-control" id="ImageFile" name="ImageFile" required />
+                <span asp-validation-for="Imagen" class="text-danger"></span>
+            </div>
+            <br />
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+                |
+                <a asp-action="Index" class="btn btn-success">Regresar</a>
+            </div>
+        </form>
+    </div>
+</div>
+
+<br />
+<div id="contenedor"></div>
+<div id="loader" class="xxxx"></div>
+<br />
+
+@section scripts {
+    <script>
+        document.getElementById("crear").addEventListener("submit", function (event) {
+         
+            event.preventDefault();
+            event.stopPropagation();
+
+            var nombre = document.getElementById("Nombre").value.trim();
+            var autor = document.getElementById("Autor").value.trim();
+            var precio = document.getElementById("Precio").value.trim();
+            var inventario = document.getElementById("Inventario").value.trim();
+            var imageFile = document.getElementById("ImageFile").value.trim();
+        
+            if (nombre !== "" && autor !== "" && precio !== "" && inventario !== "" && imageFile !== "") {
+              
+                Swal.fire({
+                    title: '¿Estás seguro?',
+                    text: '¿Deseas guardar este NFT en el sistema?',
+                    icon: 'question',
+                    showCancelButton: true,
+                    confirmButtonColor: '#3085d6',
+                    cancelButtonColor: '#d33',
+                    confirmButtonText: 'Sí, guardar',
+                    cancelButtonText: 'Cancelar'
+                }).then((result) => {
+                  
+                    if (result.isConfirmed) {
+                        onBegin();
+                        setTimeout(function () {
+                            document.getElementById('crear').submit();
+                        }, 1000); 
+                    }
+                });
+            } 
+        });
+
+        function onBegin() {
+            console.log("onBegin")
+            document.getElementById("loader").className = "loading";
+        }
+    </script>
+
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

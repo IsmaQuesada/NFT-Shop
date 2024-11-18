@@ -1,0 +1,199 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Proyecto.Web
+build_property.RootNamespace = Proyecto.Web
+build_property.ProjectDir = C:\Users\Ismael\Desktop\Proyecto-Ambiente-Web2\Proyecto\Proyecto.Web\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\Ismael\Desktop\Proyecto-Ambiente-Web2\Proyecto\Proyecto.Web
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/Ismael/Desktop/Proyecto-Ambiente-Web2/Proyecto/Proyecto.Web/Views/Calificacion/Calificacion.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FsaWZpY2FjaW9uXENhbGlmaWNhY2lvbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ismael/Desktop/Proyecto-Ambiente-Web2/Proyecto/Proyecto.Web/Views/Calificacion/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FsaWZpY2FjaW9uXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ismael/Desktop/Proyecto-Ambiente-Web2/Proyecto/Proyecto.Web/Views/Cliente/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZVxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ismael/Desktop/Proyecto-Ambiente-Web2/Proyecto/Proyecto.Web/Views/Cliente/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZVxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ismael/Desktop/Proyecto-Ambiente-Web2/Proyecto/Proyecto.Web/Views/Cliente/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZVxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ismael/Desktop/Proyecto-Ambiente-Web2/Proyecto/Proyecto.Web/Views/Cliente/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ismael/Desktop/Proyecto-Ambiente-Web2/Proyecto/Proyecto.Web/Views/Error/ErrorDetail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXJyb3JcRXJyb3JEZXRhaWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ismael/Desktop/Proyecto-Ambiente-Web2/Proyecto/Proyecto.Web/Views/Factura/AnularFacturaIndex.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmFjdHVyYVxBbnVsYXJGYWN0dXJhSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ismael/Desktop/Proyecto-Ambiente-Web2/Proyecto/Proyecto.Web/Views/Factura/CambiarEstado.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmFjdHVyYVxDYW1iaWFyRXN0YWRvLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ismael/Desktop/Proyecto-Ambiente-Web2/Proyecto/Proyecto.Web/Views/Factura/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmFjdHVyYVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ismael/Desktop/Proyecto-Ambiente-Web2/Proyecto/Proyecto.Web/Views/Factura/_DetailFactura.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmFjdHVyYVxfRGV0YWlsRmFjdHVyYS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ismael/Desktop/Proyecto-Ambiente-Web2/Proyecto/Proyecto.Web/Views/Grafico/GraficoVentas.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR3JhZmljb1xHcmFmaWNvVmVudGFzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ismael/Desktop/Proyecto-Ambiente-Web2/Proyecto/Proyecto.Web/Views/Home/ErrorHandler.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxFcnJvckhhbmRsZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ismael/Desktop/Proyecto-Ambiente-Web2/Proyecto/Proyecto.Web/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ismael/Desktop/Proyecto-Ambiente-Web2/Proyecto/Proyecto.Web/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ismael/Desktop/Proyecto-Ambiente-Web2/Proyecto/Proyecto.Web/Views/Login/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ismael/Desktop/Proyecto-Ambiente-Web2/Proyecto/Proyecto.Web/Views/NFT/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTkZUXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ismael/Desktop/Proyecto-Ambiente-Web2/Proyecto/Proyecto.Web/Views/NFT/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTkZUXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ismael/Desktop/Proyecto-Ambiente-Web2/Proyecto/Proyecto.Web/Views/NFT/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTkZUXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ismael/Desktop/Proyecto-Ambiente-Web2/Proyecto/Proyecto.Web/Views/NFT/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTkZUXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ismael/Desktop/Proyecto-Ambiente-Web2/Proyecto/Proyecto.Web/Views/Pais/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFpc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ismael/Desktop/Proyecto-Ambiente-Web2/Proyecto/Proyecto.Web/Views/Pais/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFpc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ismael/Desktop/Proyecto-Ambiente-Web2/Proyecto/Proyecto.Web/Views/Pais/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFpc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ismael/Desktop/Proyecto-Ambiente-Web2/Proyecto/Proyecto.Web/Views/Pais/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFpc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ismael/Desktop/Proyecto-Ambiente-Web2/Proyecto/Proyecto.Web/Views/Reportes/ClienteReportByNFT.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVwb3J0ZXNcQ2xpZW50ZVJlcG9ydEJ5TkZULmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ismael/Desktop/Proyecto-Ambiente-Web2/Proyecto/Proyecto.Web/Views/Reportes/details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVwb3J0ZXNcZGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ismael/Desktop/Proyecto-Ambiente-Web2/Proyecto/Proyecto.Web/Views/Reportes/ReporteClientes.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVwb3J0ZXNcUmVwb3J0ZUNsaWVudGVzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ismael/Desktop/Proyecto-Ambiente-Web2/Proyecto/Proyecto.Web/Views/Reportes/ReporteNFTs.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVwb3J0ZXNcUmVwb3J0ZU5GVHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ismael/Desktop/Proyecto-Ambiente-Web2/Proyecto/Proyecto.Web/Views/Reportes/ReporteVentasByFecha.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVwb3J0ZXNcUmVwb3J0ZVZlbnRhc0J5RmVjaGEuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ismael/Desktop/Proyecto-Ambiente-Web2/Proyecto/Proyecto.Web/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ismael/Desktop/Proyecto-Ambiente-Web2/Proyecto/Proyecto.Web/Views/Shared/_Menu.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9NZW51LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ismael/Desktop/Proyecto-Ambiente-Web2/Proyecto/Proyecto.Web/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ismael/Desktop/Proyecto-Ambiente-Web2/Proyecto/Proyecto.Web/Views/Tarjeta/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGFyamV0YVxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ismael/Desktop/Proyecto-Ambiente-Web2/Proyecto/Proyecto.Web/Views/Tarjeta/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGFyamV0YVxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ismael/Desktop/Proyecto-Ambiente-Web2/Proyecto/Proyecto.Web/Views/Tarjeta/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGFyamV0YVxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ismael/Desktop/Proyecto-Ambiente-Web2/Proyecto/Proyecto.Web/Views/Tarjeta/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGFyamV0YVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ismael/Desktop/Proyecto-Ambiente-Web2/Proyecto/Proyecto.Web/Views/Usuario/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ismael/Desktop/Proyecto-Ambiente-Web2/Proyecto/Proyecto.Web/Views/Usuario/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ismael/Desktop/Proyecto-Ambiente-Web2/Proyecto/Proyecto.Web/Views/Usuario/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ismael/Desktop/Proyecto-Ambiente-Web2/Proyecto/Proyecto.Web/Views/Usuario/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ismael/Desktop/Proyecto-Ambiente-Web2/Proyecto/Proyecto.Web/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ismael/Desktop/Proyecto-Ambiente-Web2/Proyecto/Proyecto.Web/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ismael/Desktop/Proyecto-Ambiente-Web2/Proyecto/Proyecto.Web/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-unfhv0ra44

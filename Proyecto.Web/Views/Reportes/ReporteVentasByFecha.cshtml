@@ -1,0 +1,99 @@
+﻿@{
+    ViewData["Title"] = "VentasByFecha PDF";
+}
+
+<div class="container">
+    <div class="card">
+        <div class="card-header">
+            Reporte ventas por fecha
+        </div>
+        <div class="card-body">
+            <form asp-action="VentasReportByFechaPDF"
+                  asp-controller="Reportes"
+                  asp-antiforgery="true"
+                  method="post"
+                  asp-antiforgery="true" onsubmit="return validateForm()">
+
+                <div class="row g-3 align-items-end flex-lg-wrap">
+                    <div class="col-auto">
+                        <label for="fechaInicial" id="label" class="form-label">Fecha inicial</label>
+                        <input type="datetime-local" id="fechaInicial" name="fechaInicial" class="form-control">
+                    </div>
+                    <div class="col-auto">
+                        <label for="fechaFinal" id="label" class="form-label">Fecha final</label>
+                        <input type="datetime-local" id="fechaFinal" name="fechaFinal" class="form-control">
+                    </div>
+                    <div class="col-auto">
+                        <button type="submit" class="btn btn-success">Consultar</button>
+                    </div>
+                </div>
+            </form>
+            <br />
+            @if (ViewBag.Message != null)
+            {
+                <div class="alert alert-danger" id="Message" role="alert">
+                    @ViewBag.Message
+                </div>
+            }
+
+        </div>
+    </div>
+</div>
+
+@section scripts {
+    <script type="text/javascript">
+
+        function validateForm() {
+            let fechaInicial = document.getElementById("fechaInicial");
+            let fechaFinal = document.getElementById("fechaFinal");
+
+            toastr.options = {
+                "closeButton": false,
+                "debug": false,
+                "newestOnTop": false,
+                "progressBar": false,
+                "positionClass": "toast-top-center",
+                "preventDuplicates": false,
+                "onclick": null,
+                "showDuration": "300",
+                "hideDuration": "1000",
+                "timeOut": "5000",
+                "extendedTimeOut": "1000",
+                "showEasing": "swing",
+                "hideEasing": "linear",
+                "showMethod": "fadeIn",
+                "hideMethod": "fadeOut"
+            }
+
+            console.log(fechaInicial.value)
+            console.log(fechaFinal.value)
+
+            if (fechaInicial.value === "") {
+                toastr["error"]("La fecha inicial es requerida!", "Atención")
+                return false;
+            }
+
+            if (fechaFinal.value === "") {
+                toastr["error"]("La fecha final es requerida!", "Atención")
+                return false;
+            }
+
+            return true;
+        }
+
+        function clearMessage() {
+            let divMessage = document.getElementById("Message");
+            // timeout to clear message
+            if (divMessage != null)
+                setTimeout(() => { divMessage.remove(); }, 3000);
+            console.log("bye");
+        }
+
+        clearMessage();
+
+    </script>
+
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

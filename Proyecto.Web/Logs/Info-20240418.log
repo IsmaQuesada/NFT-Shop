@@ -1,0 +1,642 @@
+2024-04-18 22:22:33.131 -06:00 [INF] User profile is available. Using 'C:\Users\Ismael\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-04-18 22:22:34.167 -06:00 [INF] Now listening on: https://localhost:7084
+2024-04-18 22:22:34.168 -06:00 [INF] Now listening on: http://localhost:5267
+2024-04-18 22:22:34.170 -06:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-04-18 22:22:34.171 -06:00 [INF] Hosting environment: Development
+2024-04-18 22:22:34.172 -06:00 [INF] Content root path: C:\Users\Ismael\Desktop\Proyecto-Ambiente-Web2\Proyecto\Proyecto.Web
+2024-04-18 22:22:38.713 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7084/ - null null
+2024-04-18 22:22:39.048 -06:00 [INF] Executing endpoint 'Proyecto.Web.Controllers.LoginController.Index (Proyecto.Web)'
+2024-04-18 22:22:39.099 -06:00 [INF] Route matched with {action = "Index", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller Proyecto.Web.Controllers.LoginController (Proyecto.Web).
+2024-04-18 22:22:39.517 -06:00 [INF] Executing action method Proyecto.Web.Controllers.LoginController.Index (Proyecto.Web) - Validation state: "Valid"
+2024-04-18 22:22:39.522 -06:00 [INF] Executed action method Proyecto.Web.Controllers.LoginController.Index (Proyecto.Web), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.5007ms.
+2024-04-18 22:22:39.532 -06:00 [INF] Executing ViewResult, running view Index.
+2024-04-18 22:22:39.771 -06:00 [INF] Executed ViewResult - view Index executed in 231.4211ms.
+2024-04-18 22:22:39.773 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7084/css/site.css?v=jj3PM3xWj1LUyu9T0KX4juc5rDBihcsb3zae-Fbn1js - null null
+2024-04-18 22:22:39.773 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7084/lib/jquery/dist/jquery.min.js - null null
+2024-04-18 22:22:39.773 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7084/lib/bootstrap/dist/css/bootstrap.min.css - null null
+2024-04-18 22:22:39.773 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7084/MVCAjax.styles.css - null null
+2024-04-18 22:22:39.823 -06:00 [INF] Executed action Proyecto.Web.Controllers.LoginController.Index (Proyecto.Web) in 720.7533ms
+2024-04-18 22:22:39.782 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7084/Images/login_1000997.png - null null
+2024-04-18 22:22:39.804 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7084/_framework/aspnetcore-browser-refresh.js - null null
+2024-04-18 22:22:39.810 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7084/lib/bootstrap/dist/js/bootstrap.bundle.min.js - null null
+2024-04-18 22:22:39.879 -06:00 [INF] The file /lib/jquery/dist/jquery.min.js was not modified
+2024-04-18 22:22:39.882 -06:00 [INF] The file /css/site.css was not modified
+2024-04-18 22:22:39.878 -06:00 [INF] Executed endpoint 'Proyecto.Web.Controllers.LoginController.Index (Proyecto.Web)'
+2024-04-18 22:22:39.879 -06:00 [INF] The file /lib/bootstrap/dist/css/bootstrap.min.css was not modified
+2024-04-18 22:22:39.879 -06:00 [INF] The file /Images/login_1000997.png was not modified
+2024-04-18 22:22:39.883 -06:00 [INF] The file /lib/bootstrap/dist/js/bootstrap.bundle.min.js was not modified
+2024-04-18 22:22:39.813 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7084/js/site.js?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo - null null
+2024-04-18 22:22:39.822 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7084/_vs/browserLink - null null
+2024-04-18 22:22:39.885 -06:00 [INF] Executing endpoint 'Proyecto.Web.Controllers.ErrorController.Error (Proyecto.Web)'
+2024-04-18 22:22:39.887 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7084/lib/jquery/dist/jquery.min.js - 304 null text/javascript 114.2978ms
+2024-04-18 22:22:39.887 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7084/css/site.css?v=jj3PM3xWj1LUyu9T0KX4juc5rDBihcsb3zae-Fbn1js - 304 null text/css 113.1245ms
+2024-04-18 22:22:39.887 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7084/_framework/aspnetcore-browser-refresh.js - 200 13760 application/javascript; charset=utf-8 83.8957ms
+2024-04-18 22:22:39.892 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7084/ - 200 null text/html; charset=utf-8 1188.5334ms
+2024-04-18 22:22:39.887 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7084/lib/bootstrap/dist/css/bootstrap.min.css - 304 null text/css 115.0593ms
+2024-04-18 22:22:39.888 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7084/Images/login_1000997.png - 304 null image/png 107.3875ms
+2024-04-18 22:22:39.889 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7084/lib/bootstrap/dist/js/bootstrap.bundle.min.js - 304 null text/javascript 79.4044ms
+2024-04-18 22:22:39.907 -06:00 [INF] Route matched with {action = "Error", controller = "Error"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Error(Int32) on controller Proyecto.Web.Controllers.ErrorController (Proyecto.Web).
+2024-04-18 22:22:39.892 -06:00 [INF] The file /js/site.js was not modified
+2024-04-18 22:22:39.917 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7084/js/site.js?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo - 304 null text/javascript 104.8148ms
+2024-04-18 22:22:39.946 -06:00 [INF] Executing action method Proyecto.Web.Controllers.ErrorController.Error (Proyecto.Web) - Validation state: "Valid"
+2024-04-18 22:22:39.953 -06:00 [INF] Executed action method Proyecto.Web.Controllers.ErrorController.Error (Proyecto.Web), returned result Microsoft.AspNetCore.Mvc.ViewResult in 5.8583ms.
+2024-04-18 22:22:39.955 -06:00 [INF] Executing ViewResult, running view ErrorDetail.
+2024-04-18 22:22:39.994 -06:00 [INF] Executed ViewResult - view ErrorDetail executed in 39.3076ms.
+2024-04-18 22:22:39.996 -06:00 [INF] Executed action Proyecto.Web.Controllers.ErrorController.Error (Proyecto.Web) in 79.7615ms
+2024-04-18 22:22:39.998 -06:00 [INF] Executed endpoint 'Proyecto.Web.Controllers.ErrorController.Error (Proyecto.Web)'
+2024-04-18 22:22:39.999 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7084/MVCAjax.styles.css - 404 null text/html; charset=utf-8 227.6365ms
+2024-04-18 22:22:40.002 -06:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7084/MVCAjax.styles.css, Response status code: 404
+2024-04-18 22:22:40.063 -06:00 [INF] Request starting HTTP/1.1 GET https://localhost:7084/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map - null null
+2024-04-18 22:22:40.093 -06:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map'. Physical path: 'C:\Users\Ismael\Desktop\Proyecto-Ambiente-Web2\Proyecto\Proyecto.Web\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js.map'
+2024-04-18 22:22:40.095 -06:00 [INF] Request finished HTTP/1.1 GET https://localhost:7084/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map - 200 327261 text/plain 32.0258ms
+2024-04-18 22:22:40.436 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7084/_vs/browserLink - 200 null text/javascript; charset=UTF-8 613.9529ms
+2024-04-18 23:18:34.193 -06:00 [INF] User profile is available. Using 'C:\Users\Ismael\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-04-18 23:18:34.735 -06:00 [INF] Now listening on: https://localhost:7084
+2024-04-18 23:18:34.736 -06:00 [INF] Now listening on: http://localhost:5267
+2024-04-18 23:18:34.738 -06:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-04-18 23:18:34.739 -06:00 [INF] Hosting environment: Development
+2024-04-18 23:18:34.740 -06:00 [INF] Content root path: C:\Users\Ismael\Desktop\Proyecto-Ambiente-Web2\Proyecto\Proyecto.Web
+2024-04-18 23:18:40.208 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7084/ - null null
+2024-04-18 23:18:40.528 -06:00 [INF] Executing endpoint 'Proyecto.Web.Controllers.LoginController.Index (Proyecto.Web)'
+2024-04-18 23:18:40.567 -06:00 [INF] Route matched with {action = "Index", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller Proyecto.Web.Controllers.LoginController (Proyecto.Web).
+2024-04-18 23:18:40.887 -06:00 [INF] Executing action method Proyecto.Web.Controllers.LoginController.Index (Proyecto.Web) - Validation state: "Valid"
+2024-04-18 23:18:40.891 -06:00 [INF] Executed action method Proyecto.Web.Controllers.LoginController.Index (Proyecto.Web), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.5467ms.
+2024-04-18 23:18:40.901 -06:00 [INF] Executing ViewResult, running view Index.
+2024-04-18 23:18:41.056 -06:00 [INF] Executed ViewResult - view Index executed in 156.8398ms.
+2024-04-18 23:18:41.060 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7084/MVCAjax.styles.css - null null
+2024-04-18 23:18:41.066 -06:00 [INF] Executed action Proyecto.Web.Controllers.LoginController.Index (Proyecto.Web) in 496.8056ms
+2024-04-18 23:18:41.070 -06:00 [INF] Executed endpoint 'Proyecto.Web.Controllers.LoginController.Index (Proyecto.Web)'
+2024-04-18 23:18:41.087 -06:00 [INF] Executing endpoint 'Proyecto.Web.Controllers.ErrorController.Error (Proyecto.Web)'
+2024-04-18 23:18:41.089 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7084/ - 200 null text/html; charset=utf-8 885.4078ms
+2024-04-18 23:18:41.096 -06:00 [INF] Route matched with {action = "Error", controller = "Error"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Error(Int32) on controller Proyecto.Web.Controllers.ErrorController (Proyecto.Web).
+2024-04-18 23:18:41.129 -06:00 [INF] Executing action method Proyecto.Web.Controllers.ErrorController.Error (Proyecto.Web) - Validation state: "Valid"
+2024-04-18 23:18:41.131 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7084/_framework/aspnetcore-browser-refresh.js - null null
+2024-04-18 23:18:41.131 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7084/_vs/browserLink - null null
+2024-04-18 23:18:41.140 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7084/_framework/aspnetcore-browser-refresh.js - 200 13760 application/javascript; charset=utf-8 8.9168ms
+2024-04-18 23:18:41.142 -06:00 [INF] Executed action method Proyecto.Web.Controllers.ErrorController.Error (Proyecto.Web), returned result Microsoft.AspNetCore.Mvc.ViewResult in 11.3844ms.
+2024-04-18 23:18:41.151 -06:00 [INF] Executing ViewResult, running view ErrorDetail.
+2024-04-18 23:18:41.201 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7084/_vs/browserLink - 200 null text/javascript; charset=UTF-8 70.0968ms
+2024-04-18 23:18:41.212 -06:00 [INF] Executed ViewResult - view ErrorDetail executed in 62.8063ms.
+2024-04-18 23:18:41.216 -06:00 [INF] Executed action Proyecto.Web.Controllers.ErrorController.Error (Proyecto.Web) in 118.0731ms
+2024-04-18 23:18:41.217 -06:00 [INF] Executed endpoint 'Proyecto.Web.Controllers.ErrorController.Error (Proyecto.Web)'
+2024-04-18 23:18:41.220 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7084/MVCAjax.styles.css - 404 null text/html; charset=utf-8 160.7568ms
+2024-04-18 23:18:41.223 -06:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7084/MVCAjax.styles.css, Response status code: 404
+2024-04-18 23:18:41.292 -06:00 [INF] Request starting HTTP/1.1 GET https://localhost:7084/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map - null null
+2024-04-18 23:18:41.314 -06:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map'. Physical path: 'C:\Users\Ismael\Desktop\Proyecto-Ambiente-Web2\Proyecto\Proyecto.Web\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js.map'
+2024-04-18 23:18:41.315 -06:00 [INF] Request finished HTTP/1.1 GET https://localhost:7084/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map - 200 327261 text/plain 23.0572ms
+2024-04-18 23:18:57.946 -06:00 [INF] Request starting HTTP/2 POST https://localhost:7084/Login/LogIn - application/x-www-form-urlencoded 209
+2024-04-18 23:18:57.977 -06:00 [INF] Executing endpoint 'Proyecto.Web.Controllers.LoginController.LogIn (Proyecto.Web)'
+2024-04-18 23:18:57.987 -06:00 [INF] Route matched with {action = "LogIn", controller = "Login"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] LogIn(Proyecto.Web.ViewModels.ViewModelLogin) on controller Proyecto.Web.Controllers.LoginController (Proyecto.Web).
+2024-04-18 23:18:58.028 -06:00 [INF] Executing action method Proyecto.Web.Controllers.LoginController.LogIn (Proyecto.Web) - Validation state: "Valid"
+2024-04-18 23:18:59.712 -06:00 [INF] Executed DbCommand (74ms) [Parameters=[@__id_0='admin' (Size = 20) (DbType = AnsiString), @__password_1='w066/Gja+QzxE463wHEofQ==' (Size = 50) (DbType = AnsiString)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Login], [u].[Apellidos], [u].[Estado], [u].[IdPerfil], [u].[Nombre], [u].[Password], [p].[IdPerfil], [p].[DescripcionPerfil]
+FROM [Usuario] AS [u]
+INNER JOIN [Perfil] AS [p] ON [u].[IdPerfil] = [p].[IdPerfil]
+WHERE [u].[Login] = @__id_0 AND [u].[Password] = @__password_1
+2024-04-18 23:18:59.815 -06:00 [INF] AuthenticationScheme: Cookies signed in.
+2024-04-18 23:18:59.816 -06:00 [INF] Conexion correcta de admin
+2024-04-18 23:18:59.818 -06:00 [INF] Executed action method Proyecto.Web.Controllers.LoginController.LogIn (Proyecto.Web), returned result Microsoft.AspNetCore.Mvc.RedirectToActionResult in 1789.0811ms.
+2024-04-18 23:18:59.821 -06:00 [INF] Executing RedirectResult, redirecting to /Home.
+2024-04-18 23:18:59.823 -06:00 [INF] Executed action Proyecto.Web.Controllers.LoginController.LogIn (Proyecto.Web) in 1834.2976ms
+2024-04-18 23:18:59.824 -06:00 [INF] Executed endpoint 'Proyecto.Web.Controllers.LoginController.LogIn (Proyecto.Web)'
+2024-04-18 23:18:59.828 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7084/Home - null null
+2024-04-18 23:18:59.830 -06:00 [INF] Request finished HTTP/2 POST https://localhost:7084/Login/LogIn - 302 0 null 1884.2738ms
+2024-04-18 23:18:59.864 -06:00 [INF] Executing endpoint 'Proyecto.Web.Controllers.HomeController.Index (Proyecto.Web)'
+2024-04-18 23:18:59.866 -06:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller Proyecto.Web.Controllers.HomeController (Proyecto.Web).
+2024-04-18 23:18:59.886 -06:00 [INF] Executing action method Proyecto.Web.Controllers.HomeController.Index (Proyecto.Web) - Validation state: "Valid"
+2024-04-18 23:18:59.887 -06:00 [INF] Executed action method Proyecto.Web.Controllers.HomeController.Index (Proyecto.Web), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.2215ms.
+2024-04-18 23:18:59.890 -06:00 [INF] Executing ViewResult, running view Index.
+2024-04-18 23:18:59.896 -06:00 [INF] Executed ViewResult - view Index executed in 7.235ms.
+2024-04-18 23:18:59.898 -06:00 [INF] Executed action Proyecto.Web.Controllers.HomeController.Index (Proyecto.Web) in 30.4662ms
+2024-04-18 23:18:59.899 -06:00 [INF] Executed endpoint 'Proyecto.Web.Controllers.HomeController.Index (Proyecto.Web)'
+2024-04-18 23:18:59.901 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7084/Home - 200 null text/html; charset=utf-8 72.2008ms
+2024-04-18 23:18:59.905 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7084/css/autocompleteBS.css - null null
+2024-04-18 23:18:59.905 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7084/Proyecto.Web.styles.css?v=LEXq9FRWSEQlXUQFrS47fSaZo3ORQybpUn0GDkzjWc8 - null null
+2024-04-18 23:18:59.906 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7084/Images/_b10ebc6c-cd6f-49ae-be62-8fb799e72e90.jpg - null null
+2024-04-18 23:18:59.906 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7084/Images/barbora-dostalova-yYuW_7uTOzY-unsplash.jpg - null null
+2024-04-18 23:18:59.911 -06:00 [INF] Executing endpoint 'Proyecto.Web.Controllers.ErrorController.Error (Proyecto.Web)'
+2024-04-18 23:18:59.916 -06:00 [INF] The file /Images/barbora-dostalova-yYuW_7uTOzY-unsplash.jpg was not modified
+2024-04-18 23:18:59.920 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7084/js/autocompleteBS.js - null null
+2024-04-18 23:18:59.942 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7084/Images/barbora-dostalova-yYuW_7uTOzY-unsplash.jpg - 304 null image/jpeg 36.4468ms
+2024-04-18 23:18:59.975 -06:00 [INF] Executing endpoint 'Proyecto.Web.Controllers.ErrorController.Error (Proyecto.Web)'
+2024-04-18 23:18:59.913 -06:00 [INF] The file /Images/_b10ebc6c-cd6f-49ae-be62-8fb799e72e90.jpg was not modified
+2024-04-18 23:18:59.932 -06:00 [INF] Route matched with {action = "Error", controller = "Error"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Error(Int32) on controller Proyecto.Web.Controllers.ErrorController (Proyecto.Web).
+2024-04-18 23:18:59.932 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7084/Images/ai-generated-8631634_1920.jpg - null null
+2024-04-18 23:18:59.988 -06:00 [INF] Route matched with {action = "Error", controller = "Error"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Error(Int32) on controller Proyecto.Web.Controllers.ErrorController (Proyecto.Web).
+2024-04-18 23:18:59.989 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7084/Images/_b10ebc6c-cd6f-49ae-be62-8fb799e72e90.jpg - 304 null image/jpeg 83.1359ms
+2024-04-18 23:19:00.011 -06:00 [INF] Executing action method Proyecto.Web.Controllers.ErrorController.Error (Proyecto.Web) - Validation state: "Valid"
+2024-04-18 23:19:00.013 -06:00 [INF] The file /Images/ai-generated-8631634_1920.jpg was not modified
+2024-04-18 23:18:59.913 -06:00 [INF] The file /Proyecto.Web.styles.css was not modified
+2024-04-18 23:18:59.932 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7084/_framework/aspnetcore-browser-refresh.js - null null
+2024-04-18 23:18:59.942 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7084/Images/ai-generated-8665850_1920.jpg - null null
+2024-04-18 23:19:00.032 -06:00 [INF] Executing action method Proyecto.Web.Controllers.ErrorController.Error (Proyecto.Web) - Validation state: "Valid"
+2024-04-18 23:19:00.034 -06:00 [INF] Executed action method Proyecto.Web.Controllers.ErrorController.Error (Proyecto.Web), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.04ms.
+2024-04-18 23:19:00.035 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7084/Images/ai-generated-8631634_1920.jpg - 304 null image/jpeg 103.3783ms
+2024-04-18 23:19:00.036 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7084/Proyecto.Web.styles.css?v=LEXq9FRWSEQlXUQFrS47fSaZo3ORQybpUn0GDkzjWc8 - 304 null text/css 130.6642ms
+2024-04-18 23:18:59.953 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7084/Images/halloween-7487706_1920.jpg - null null
+2024-04-18 23:18:59.963 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7084/Images/galaxy-7040416_1920.png - null null
+2024-04-18 23:18:59.975 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7084/Images/user.png - null null
+2024-04-18 23:18:59.986 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7084/_vs/browserLink - null null
+2024-04-18 23:19:00.040 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7084/_framework/aspnetcore-browser-refresh.js - 200 13760 application/javascript; charset=utf-8 107.956ms
+2024-04-18 23:19:00.042 -06:00 [INF] Executed action method Proyecto.Web.Controllers.ErrorController.Error (Proyecto.Web), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.0356ms.
+2024-04-18 23:19:00.044 -06:00 [INF] Executing ViewResult, running view ErrorDetail.
+2024-04-18 23:19:00.066 -06:00 [INF] Executing ViewResult, running view ErrorDetail.
+2024-04-18 23:19:00.040 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7084/_content/Microsoft.AspNetCore.Components.QuickGrid/Microsoft.AspNetCore.Components.QuickGrid.bundle.scp.css - null null
+2024-04-18 23:19:00.042 -06:00 [INF] The file /Images/ai-generated-8665850_1920.jpg was not modified
+2024-04-18 23:19:00.074 -06:00 [INF] Executed ViewResult - view ErrorDetail executed in 7.4155ms.
+2024-04-18 23:19:00.077 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7084/Images/ai-generated-8665850_1920.jpg - 304 null image/jpeg 135.0653ms
+2024-04-18 23:19:00.051 -06:00 [INF] The file /Images/halloween-7487706_1920.jpg was not modified
+2024-04-18 23:19:00.052 -06:00 [INF] The file /Images/galaxy-7040416_1920.png was not modified
+2024-04-18 23:19:00.054 -06:00 [INF] The file /Images/user.png was not modified
+2024-04-18 23:19:00.072 -06:00 [INF] Executed ViewResult - view ErrorDetail executed in 28.1566ms.
+2024-04-18 23:19:00.086 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7084/_vs/browserLink - 200 null text/javascript; charset=UTF-8 100.3707ms
+2024-04-18 23:19:00.087 -06:00 [INF] Executed action Proyecto.Web.Controllers.ErrorController.Error (Proyecto.Web) in 72.7529ms
+2024-04-18 23:19:00.091 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7084/Images/halloween-7487706_1920.jpg - 304 null image/jpeg 139.3262ms
+2024-04-18 23:19:00.092 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7084/Images/galaxy-7040416_1920.png - 304 null image/png 129.4646ms
+2024-04-18 23:19:00.093 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7084/Images/user.png - 304 null image/png 118.1349ms
+2024-04-18 23:19:00.094 -06:00 [INF] Executed action Proyecto.Web.Controllers.ErrorController.Error (Proyecto.Web) in 104.0213ms
+2024-04-18 23:19:00.097 -06:00 [INF] Sending file. Request path: '/_content/Microsoft.AspNetCore.Components.QuickGrid/Microsoft.AspNetCore.Components.QuickGrid.bundle.scp.css'. Physical path: 'C:\Users\Ismael\.nuget\packages\microsoft.aspnetcore.components.quickgrid\8.0.4\staticwebassets\Microsoft.AspNetCore.Components.QuickGrid.bundle.scp.css'
+2024-04-18 23:19:00.099 -06:00 [INF] Executed endpoint 'Proyecto.Web.Controllers.ErrorController.Error (Proyecto.Web)'
+2024-04-18 23:19:00.107 -06:00 [INF] Executed endpoint 'Proyecto.Web.Controllers.ErrorController.Error (Proyecto.Web)'
+2024-04-18 23:19:00.108 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7084/_content/Microsoft.AspNetCore.Components.QuickGrid/Microsoft.AspNetCore.Components.QuickGrid.bundle.scp.css - 200 8251 text/css 67.9657ms
+2024-04-18 23:19:00.109 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7084/js/autocompleteBS.js - 404 null text/html; charset=utf-8 189.4922ms
+2024-04-18 23:19:00.110 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7084/css/autocompleteBS.css - 404 null text/html; charset=utf-8 205.4971ms
+2024-04-18 23:19:00.114 -06:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7084/js/autocompleteBS.js, Response status code: 404
+2024-04-18 23:19:00.117 -06:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7084/css/autocompleteBS.css, Response status code: 404
+2024-04-18 23:19:00.127 -06:00 [INF] Request starting HTTP/1.1 GET https://localhost:7084/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map - null null
+2024-04-18 23:19:00.132 -06:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map'. Physical path: 'C:\Users\Ismael\Desktop\Proyecto-Ambiente-Web2\Proyecto\Proyecto.Web\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js.map'
+2024-04-18 23:19:00.134 -06:00 [INF] Request finished HTTP/1.1 GET https://localhost:7084/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map - 200 327261 text/plain 7.0006ms
+2024-04-18 23:19:26.702 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7084/Factura - null null
+2024-04-18 23:19:26.730 -06:00 [INF] Executing endpoint 'Proyecto.Web.Controllers.FacturaController.Index (Proyecto.Web)'
+2024-04-18 23:19:26.733 -06:00 [INF] Route matched with {action = "Index", controller = "Factura"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller Proyecto.Web.Controllers.FacturaController (Proyecto.Web).
+2024-04-18 23:19:26.754 -06:00 [INF] Executing action method Proyecto.Web.Controllers.FacturaController.Index (Proyecto.Web) - Validation state: "Valid"
+2024-04-18 23:19:26.839 -06:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[IdTarjeta], [t].[DescripcionTarjeta], [t].[Estado]
+FROM [Tarjeta] AS [t]
+2024-04-18 23:19:26.849 -06:00 [INF] Executed action method Proyecto.Web.Controllers.FacturaController.Index (Proyecto.Web), returned result Microsoft.AspNetCore.Mvc.ViewResult in 93.8239ms.
+2024-04-18 23:19:26.851 -06:00 [INF] Executing ViewResult, running view Index.
+2024-04-18 23:19:26.908 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7084/css/autocompleteBS.css - null null
+2024-04-18 23:19:26.910 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7084/js/autocompleteBS.js - null null
+2024-04-18 23:19:26.920 -06:00 [INF] Executing endpoint 'Proyecto.Web.Controllers.ErrorController.Error (Proyecto.Web)'
+2024-04-18 23:19:26.923 -06:00 [INF] Executing endpoint 'Proyecto.Web.Controllers.ErrorController.Error (Proyecto.Web)'
+2024-04-18 23:19:26.923 -06:00 [INF] Executed ViewResult - view Index executed in 71.7922ms.
+2024-04-18 23:19:26.923 -06:00 [INF] Route matched with {action = "Error", controller = "Error"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Error(Int32) on controller Proyecto.Web.Controllers.ErrorController (Proyecto.Web).
+2024-04-18 23:19:26.930 -06:00 [INF] Route matched with {action = "Error", controller = "Error"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Error(Int32) on controller Proyecto.Web.Controllers.ErrorController (Proyecto.Web).
+2024-04-18 23:19:26.931 -06:00 [INF] Executed action Proyecto.Web.Controllers.FacturaController.Index (Proyecto.Web) in 195.8722ms
+2024-04-18 23:19:26.952 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7084/lib/jquery-validation/dist/jquery.validate.min.js - null null
+2024-04-18 23:19:26.952 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7084/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js - null null
+2024-04-18 23:19:26.951 -06:00 [INF] Executing action method Proyecto.Web.Controllers.ErrorController.Error (Proyecto.Web) - Validation state: "Valid"
+2024-04-18 23:19:26.952 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7084/_framework/aspnetcore-browser-refresh.js - null null
+2024-04-18 23:19:26.952 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7084/_vs/browserLink - null null
+2024-04-18 23:19:26.973 -06:00 [INF] Executing action method Proyecto.Web.Controllers.ErrorController.Error (Proyecto.Web) - Validation state: "Valid"
+2024-04-18 23:19:26.973 -06:00 [INF] Executed endpoint 'Proyecto.Web.Controllers.FacturaController.Index (Proyecto.Web)'
+2024-04-18 23:19:26.989 -06:00 [INF] Executed action method Proyecto.Web.Controllers.ErrorController.Error (Proyecto.Web), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.0296ms.
+2024-04-18 23:19:26.993 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7084/Factura - 200 null text/html; charset=utf-8 291.8748ms
+2024-04-18 23:19:27.002 -06:00 [INF] Executing ViewResult, running view ErrorDetail.
+2024-04-18 23:19:26.975 -06:00 [INF] The file /lib/jquery-validation/dist/jquery.validate.min.js was not modified
+2024-04-18 23:19:26.977 -06:00 [INF] The file /lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js was not modified
+2024-04-18 23:19:27.009 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7084/lib/jquery-validation/dist/jquery.validate.min.js - 304 null text/javascript 57.3007ms
+2024-04-18 23:19:27.011 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7084/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js - 304 null text/javascript 58.9459ms
+2024-04-18 23:19:26.978 -06:00 [INF] Executed action method Proyecto.Web.Controllers.ErrorController.Error (Proyecto.Web), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.0363ms.
+2024-04-18 23:19:27.010 -06:00 [INF] Executed ViewResult - view ErrorDetail executed in 8.6788ms.
+2024-04-18 23:19:26.981 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7084/_framework/aspnetcore-browser-refresh.js - 200 13760 application/javascript; charset=utf-8 28.6482ms
+2024-04-18 23:19:27.008 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7084/_vs/browserLink - 200 null text/javascript; charset=UTF-8 56.2373ms
+2024-04-18 23:19:27.017 -06:00 [INF] Executing ViewResult, running view ErrorDetail.
+2024-04-18 23:19:27.018 -06:00 [INF] Executed action Proyecto.Web.Controllers.ErrorController.Error (Proyecto.Web) in 65.7004ms
+2024-04-18 23:19:27.023 -06:00 [INF] Executed endpoint 'Proyecto.Web.Controllers.ErrorController.Error (Proyecto.Web)'
+2024-04-18 23:19:27.024 -06:00 [INF] Executed ViewResult - view ErrorDetail executed in 6.7949ms.
+2024-04-18 23:19:27.025 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7084/js/autocompleteBS.js - 404 null text/html; charset=utf-8 115.5393ms
+2024-04-18 23:19:27.026 -06:00 [INF] Executed action Proyecto.Web.Controllers.ErrorController.Error (Proyecto.Web) in 93.5027ms
+2024-04-18 23:19:27.028 -06:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7084/js/autocompleteBS.js, Response status code: 404
+2024-04-18 23:19:27.029 -06:00 [INF] Executed endpoint 'Proyecto.Web.Controllers.ErrorController.Error (Proyecto.Web)'
+2024-04-18 23:19:27.031 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7084/css/autocompleteBS.css - 404 null text/html; charset=utf-8 123.4907ms
+2024-04-18 23:19:27.033 -06:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7084/css/autocompleteBS.css, Response status code: 404
+2024-04-18 23:19:27.047 -06:00 [INF] Request starting HTTP/1.1 GET https://localhost:7084/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map - null null
+2024-04-18 23:19:27.052 -06:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map'. Physical path: 'C:\Users\Ismael\Desktop\Proyecto-Ambiente-Web2\Proyecto\Proyecto.Web\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js.map'
+2024-04-18 23:19:27.053 -06:00 [INF] Request finished HTTP/1.1 GET https://localhost:7084/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map - 200 327261 text/plain 5.6189ms
+2024-04-18 23:19:33.446 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7084/NFT - null null
+2024-04-18 23:19:33.469 -06:00 [INF] Executing endpoint 'Proyecto.Web.Controllers.NFTController.Index (Proyecto.Web)'
+2024-04-18 23:19:33.473 -06:00 [INF] Route matched with {action = "Index", controller = "NFT"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index(System.Nullable`1[System.Int32]) on controller Proyecto.Web.Controllers.NFTController (Proyecto.Web).
+2024-04-18 23:19:33.495 -06:00 [INF] Executing action method Proyecto.Web.Controllers.NFTController.Index (Proyecto.Web) - Validation state: "Valid"
+2024-04-18 23:19:33.553 -06:00 [INF] Executed DbCommand (6ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[IdNft], [a].[Autor], [a].[Imagen], [a].[Inventario], [a].[Nombre], [a].[Precio]
+FROM [ActivoNFT] AS [a]
+2024-04-18 23:19:33.720 -06:00 [INF] Executed action method Proyecto.Web.Controllers.NFTController.Index (Proyecto.Web), returned result Microsoft.AspNetCore.Mvc.ViewResult in 222.7317ms.
+2024-04-18 23:19:33.722 -06:00 [INF] Executing ViewResult, running view Index.
+2024-04-18 23:19:33.810 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7084/css/autocompleteBS.css - null null
+2024-04-18 23:19:33.818 -06:00 [INF] Executing endpoint 'Proyecto.Web.Controllers.ErrorController.Error (Proyecto.Web)'
+2024-04-18 23:19:33.823 -06:00 [INF] Route matched with {action = "Error", controller = "Error"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Error(Int32) on controller Proyecto.Web.Controllers.ErrorController (Proyecto.Web).
+2024-04-18 23:19:33.849 -06:00 [INF] Executing action method Proyecto.Web.Controllers.ErrorController.Error (Proyecto.Web) - Validation state: "Valid"
+2024-04-18 23:19:33.852 -06:00 [INF] Executed action method Proyecto.Web.Controllers.ErrorController.Error (Proyecto.Web), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.0946ms.
+2024-04-18 23:19:33.856 -06:00 [INF] Executing ViewResult, running view ErrorDetail.
+2024-04-18 23:19:33.863 -06:00 [INF] Executed ViewResult - view ErrorDetail executed in 6.7568ms.
+2024-04-18 23:19:33.866 -06:00 [INF] Executed action Proyecto.Web.Controllers.ErrorController.Error (Proyecto.Web) in 39.4503ms
+2024-04-18 23:19:33.869 -06:00 [INF] Executed endpoint 'Proyecto.Web.Controllers.ErrorController.Error (Proyecto.Web)'
+2024-04-18 23:19:33.873 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7084/css/autocompleteBS.css - 404 null text/html; charset=utf-8 62.8319ms
+2024-04-18 23:19:33.880 -06:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7084/css/autocompleteBS.css, Response status code: 404
+2024-04-18 23:19:33.926 -06:00 [INF] Executed ViewResult - view Index executed in 204.7269ms.
+2024-04-18 23:19:33.927 -06:00 [INF] Executed action Proyecto.Web.Controllers.NFTController.Index (Proyecto.Web) in 452.7565ms
+2024-04-18 23:19:33.929 -06:00 [INF] Executed endpoint 'Proyecto.Web.Controllers.NFTController.Index (Proyecto.Web)'
+2024-04-18 23:19:33.930 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7084/NFT - 200 null text/html; charset=utf-8 484.489ms
+2024-04-18 23:19:34.007 -06:00 [INF] Request starting HTTP/1.1 GET https://localhost:7084/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map - null null
+2024-04-18 23:19:34.011 -06:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map'. Physical path: 'C:\Users\Ismael\Desktop\Proyecto-Ambiente-Web2\Proyecto\Proyecto.Web\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js.map'
+2024-04-18 23:19:34.013 -06:00 [INF] Request finished HTTP/1.1 GET https://localhost:7084/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map - 200 327261 text/plain 5.3344ms
+2024-04-18 23:19:34.294 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7084/js/autocompleteBS.js - null null
+2024-04-18 23:19:34.296 -06:00 [INF] Executing endpoint 'Proyecto.Web.Controllers.ErrorController.Error (Proyecto.Web)'
+2024-04-18 23:19:34.297 -06:00 [INF] Route matched with {action = "Error", controller = "Error"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Error(Int32) on controller Proyecto.Web.Controllers.ErrorController (Proyecto.Web).
+2024-04-18 23:19:34.318 -06:00 [INF] Executing action method Proyecto.Web.Controllers.ErrorController.Error (Proyecto.Web) - Validation state: "Valid"
+2024-04-18 23:19:34.318 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7084/_vs/browserLink - null null
+2024-04-18 23:19:34.318 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7084/_framework/aspnetcore-browser-refresh.js - null null
+2024-04-18 23:19:34.319 -06:00 [INF] Executed action method Proyecto.Web.Controllers.ErrorController.Error (Proyecto.Web), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.031ms.
+2024-04-18 23:19:34.329 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7084/_framework/aspnetcore-browser-refresh.js - 200 13760 application/javascript; charset=utf-8 10.7581ms
+2024-04-18 23:19:34.330 -06:00 [INF] Executing ViewResult, running view ErrorDetail.
+2024-04-18 23:19:34.335 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7084/_vs/browserLink - 200 null text/javascript; charset=UTF-8 16.9926ms
+2024-04-18 23:19:34.338 -06:00 [INF] Executed ViewResult - view ErrorDetail executed in 7.294ms.
+2024-04-18 23:19:34.341 -06:00 [INF] Executed action Proyecto.Web.Controllers.ErrorController.Error (Proyecto.Web) in 42.1808ms
+2024-04-18 23:19:34.342 -06:00 [INF] Executed endpoint 'Proyecto.Web.Controllers.ErrorController.Error (Proyecto.Web)'
+2024-04-18 23:19:34.343 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7084/js/autocompleteBS.js - 404 null text/html; charset=utf-8 49.0449ms
+2024-04-18 23:19:34.345 -06:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7084/js/autocompleteBS.js, Response status code: 404
+2024-04-18 23:19:39.085 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7084/Usuario - null null
+2024-04-18 23:19:39.110 -06:00 [INF] Executing endpoint 'Proyecto.Web.Controllers.UsuarioController.Index (Proyecto.Web)'
+2024-04-18 23:19:39.114 -06:00 [INF] Route matched with {action = "Index", controller = "Usuario"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index(System.Nullable`1[System.Int32]) on controller Proyecto.Web.Controllers.UsuarioController (Proyecto.Web).
+2024-04-18 23:19:39.139 -06:00 [INF] Executing action method Proyecto.Web.Controllers.UsuarioController.Index (Proyecto.Web) - Validation state: "Valid"
+2024-04-18 23:19:39.150 -06:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [u].[Login], [u].[Apellidos], [u].[Estado], [u].[IdPerfil], [u].[Nombre], [u].[Password], [p].[IdPerfil], [p].[DescripcionPerfil]
+FROM [Usuario] AS [u]
+INNER JOIN [Perfil] AS [p] ON [u].[IdPerfil] = [p].[IdPerfil]
+2024-04-18 23:19:39.158 -06:00 [INF] Executed action method Proyecto.Web.Controllers.UsuarioController.Index (Proyecto.Web), returned result Microsoft.AspNetCore.Mvc.ViewResult in 17.4444ms.
+2024-04-18 23:19:39.160 -06:00 [INF] Executing ViewResult, running view Index.
+2024-04-18 23:19:39.176 -06:00 [INF] Executed ViewResult - view Index executed in 16.1222ms.
+2024-04-18 23:19:39.177 -06:00 [INF] Executed action Proyecto.Web.Controllers.UsuarioController.Index (Proyecto.Web) in 61.4462ms
+2024-04-18 23:19:39.178 -06:00 [INF] Executed endpoint 'Proyecto.Web.Controllers.UsuarioController.Index (Proyecto.Web)'
+2024-04-18 23:19:39.180 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7084/Usuario - 200 null text/html; charset=utf-8 95.3133ms
+2024-04-18 23:19:39.182 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7084/css/autocompleteBS.css - null null
+2024-04-18 23:19:39.183 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7084/js/autocompleteBS.js - null null
+2024-04-18 23:19:39.184 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7084/_framework/aspnetcore-browser-refresh.js - null null
+2024-04-18 23:19:39.189 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7084/_vs/browserLink - null null
+2024-04-18 23:19:39.185 -06:00 [INF] Executing endpoint 'Proyecto.Web.Controllers.ErrorController.Error (Proyecto.Web)'
+2024-04-18 23:19:39.187 -06:00 [INF] Executing endpoint 'Proyecto.Web.Controllers.ErrorController.Error (Proyecto.Web)'
+2024-04-18 23:19:39.190 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7084/_framework/aspnetcore-browser-refresh.js - 200 13760 application/javascript; charset=utf-8 6.4844ms
+2024-04-18 23:19:39.195 -06:00 [INF] Route matched with {action = "Error", controller = "Error"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Error(Int32) on controller Proyecto.Web.Controllers.ErrorController (Proyecto.Web).
+2024-04-18 23:19:39.195 -06:00 [INF] Route matched with {action = "Error", controller = "Error"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Error(Int32) on controller Proyecto.Web.Controllers.ErrorController (Proyecto.Web).
+2024-04-18 23:19:39.203 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7084/_vs/browserLink - 200 null text/javascript; charset=UTF-8 15.2233ms
+2024-04-18 23:19:39.221 -06:00 [INF] Executing action method Proyecto.Web.Controllers.ErrorController.Error (Proyecto.Web) - Validation state: "Valid"
+2024-04-18 23:19:39.238 -06:00 [INF] Executing action method Proyecto.Web.Controllers.ErrorController.Error (Proyecto.Web) - Validation state: "Valid"
+2024-04-18 23:19:39.241 -06:00 [INF] Executed action method Proyecto.Web.Controllers.ErrorController.Error (Proyecto.Web), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.0263ms.
+2024-04-18 23:19:39.242 -06:00 [INF] Executed action method Proyecto.Web.Controllers.ErrorController.Error (Proyecto.Web), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.0234ms.
+2024-04-18 23:19:39.243 -06:00 [INF] Executing ViewResult, running view ErrorDetail.
+2024-04-18 23:19:39.244 -06:00 [INF] Executing ViewResult, running view ErrorDetail.
+2024-04-18 23:19:39.246 -06:00 [INF] Executed ViewResult - view ErrorDetail executed in 2.858ms.
+2024-04-18 23:19:39.249 -06:00 [INF] Executed ViewResult - view ErrorDetail executed in 4.7717ms.
+2024-04-18 23:19:39.250 -06:00 [INF] Executed action Proyecto.Web.Controllers.ErrorController.Error (Proyecto.Web) in 46.5131ms
+2024-04-18 23:19:39.251 -06:00 [INF] Executed action Proyecto.Web.Controllers.ErrorController.Error (Proyecto.Web) in 29.2141ms
+2024-04-18 23:19:39.252 -06:00 [INF] Executed endpoint 'Proyecto.Web.Controllers.ErrorController.Error (Proyecto.Web)'
+2024-04-18 23:19:39.253 -06:00 [INF] Executed endpoint 'Proyecto.Web.Controllers.ErrorController.Error (Proyecto.Web)'
+2024-04-18 23:19:39.254 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7084/css/autocompleteBS.css - 404 null text/html; charset=utf-8 71.8744ms
+2024-04-18 23:19:39.254 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7084/js/autocompleteBS.js - 404 null text/html; charset=utf-8 71.6178ms
+2024-04-18 23:19:39.256 -06:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7084/css/autocompleteBS.css, Response status code: 404
+2024-04-18 23:19:39.259 -06:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7084/js/autocompleteBS.js, Response status code: 404
+2024-04-18 23:19:39.269 -06:00 [INF] Request starting HTTP/1.1 GET https://localhost:7084/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map - null null
+2024-04-18 23:19:39.274 -06:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map'. Physical path: 'C:\Users\Ismael\Desktop\Proyecto-Ambiente-Web2\Proyecto\Proyecto.Web\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js.map'
+2024-04-18 23:19:39.275 -06:00 [INF] Request finished HTTP/1.1 GET https://localhost:7084/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map - 200 327261 text/plain 5.9143ms
+2024-04-18 23:19:40.955 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7084/Calificacion - null null
+2024-04-18 23:19:40.980 -06:00 [INF] Executing endpoint 'Proyecto.Web.Controllers.CalificacionController.Index (Proyecto.Web)'
+2024-04-18 23:19:40.982 -06:00 [INF] Route matched with {action = "Index", controller = "Calificacion"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller Proyecto.Web.Controllers.CalificacionController (Proyecto.Web).
+2024-04-18 23:19:41.005 -06:00 [INF] Executing action method Proyecto.Web.Controllers.CalificacionController.Index (Proyecto.Web) - Validation state: "Valid"
+2024-04-18 23:19:41.006 -06:00 [INF] Executed action method Proyecto.Web.Controllers.CalificacionController.Index (Proyecto.Web), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.1614ms.
+2024-04-18 23:19:41.008 -06:00 [INF] Executing ViewResult, running view Index.
+2024-04-18 23:19:41.019 -06:00 [INF] Executed ViewResult - view Index executed in 10.8354ms.
+2024-04-18 23:19:41.021 -06:00 [INF] Executed action Proyecto.Web.Controllers.CalificacionController.Index (Proyecto.Web) in 37.028ms
+2024-04-18 23:19:41.022 -06:00 [INF] Executed endpoint 'Proyecto.Web.Controllers.CalificacionController.Index (Proyecto.Web)'
+2024-04-18 23:19:41.023 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7084/Calificacion - 200 null text/html; charset=utf-8 68.6559ms
+2024-04-18 23:19:41.025 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7084/css/autocompleteBS.css - null null
+2024-04-18 23:19:41.026 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7084/js/autocompleteBS.js - null null
+2024-04-18 23:19:41.026 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7084/_framework/aspnetcore-browser-refresh.js - null null
+2024-04-18 23:19:41.030 -06:00 [INF] Executing endpoint 'Proyecto.Web.Controllers.ErrorController.Error (Proyecto.Web)'
+2024-04-18 23:19:41.031 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7084/_vs/browserLink - null null
+2024-04-18 23:19:41.028 -06:00 [INF] Executing endpoint 'Proyecto.Web.Controllers.ErrorController.Error (Proyecto.Web)'
+2024-04-18 23:19:41.033 -06:00 [INF] Route matched with {action = "Error", controller = "Error"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Error(Int32) on controller Proyecto.Web.Controllers.ErrorController (Proyecto.Web).
+2024-04-18 23:19:41.032 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7084/_framework/aspnetcore-browser-refresh.js - 200 13760 application/javascript; charset=utf-8 6.2227ms
+2024-04-18 23:19:41.058 -06:00 [INF] Executing action method Proyecto.Web.Controllers.ErrorController.Error (Proyecto.Web) - Validation state: "Valid"
+2024-04-18 23:19:41.036 -06:00 [INF] Route matched with {action = "Error", controller = "Error"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Error(Int32) on controller Proyecto.Web.Controllers.ErrorController (Proyecto.Web).
+2024-04-18 23:19:41.061 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7084/_vs/browserLink - 200 null text/javascript; charset=UTF-8 30.7135ms
+2024-04-18 23:19:41.062 -06:00 [INF] Executed action method Proyecto.Web.Controllers.ErrorController.Error (Proyecto.Web), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.0336ms.
+2024-04-18 23:19:41.079 -06:00 [INF] Executing action method Proyecto.Web.Controllers.ErrorController.Error (Proyecto.Web) - Validation state: "Valid"
+2024-04-18 23:19:41.082 -06:00 [INF] Executing ViewResult, running view ErrorDetail.
+2024-04-18 23:19:41.084 -06:00 [INF] Executed action method Proyecto.Web.Controllers.ErrorController.Error (Proyecto.Web), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.0336ms.
+2024-04-18 23:19:41.086 -06:00 [INF] Executed ViewResult - view ErrorDetail executed in 3.0709ms.
+2024-04-18 23:19:41.087 -06:00 [INF] Executing ViewResult, running view ErrorDetail.
+2024-04-18 23:19:41.088 -06:00 [INF] Executed action Proyecto.Web.Controllers.ErrorController.Error (Proyecto.Web) in 49.1833ms
+2024-04-18 23:19:41.090 -06:00 [INF] Executed ViewResult - view ErrorDetail executed in 3.0418ms.
+2024-04-18 23:19:41.091 -06:00 [INF] Executed endpoint 'Proyecto.Web.Controllers.ErrorController.Error (Proyecto.Web)'
+2024-04-18 23:19:41.093 -06:00 [INF] Executed action Proyecto.Web.Controllers.ErrorController.Error (Proyecto.Web) in 29.3521ms
+2024-04-18 23:19:41.094 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7084/js/autocompleteBS.js - 404 null text/html; charset=utf-8 67.3006ms
+2024-04-18 23:19:41.094 -06:00 [INF] Executed endpoint 'Proyecto.Web.Controllers.ErrorController.Error (Proyecto.Web)'
+2024-04-18 23:19:41.096 -06:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7084/js/autocompleteBS.js, Response status code: 404
+2024-04-18 23:19:41.097 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7084/css/autocompleteBS.css - 404 null text/html; charset=utf-8 72.3008ms
+2024-04-18 23:19:41.100 -06:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7084/css/autocompleteBS.css, Response status code: 404
+2024-04-18 23:19:41.110 -06:00 [INF] Request starting HTTP/1.1 GET https://localhost:7084/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map - null null
+2024-04-18 23:19:41.114 -06:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map'. Physical path: 'C:\Users\Ismael\Desktop\Proyecto-Ambiente-Web2\Proyecto\Proyecto.Web\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js.map'
+2024-04-18 23:19:41.116 -06:00 [INF] Request finished HTTP/1.1 GET https://localhost:7084/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map - 200 327261 text/plain 5.7418ms
+2024-04-18 23:19:42.431 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7084/Pais - null null
+2024-04-18 23:19:42.465 -06:00 [INF] Executing endpoint 'Proyecto.Web.Controllers.PaisController.Index (Proyecto.Web)'
+2024-04-18 23:19:42.468 -06:00 [INF] Route matched with {action = "Index", controller = "Pais"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index(System.Nullable`1[System.Int32]) on controller Proyecto.Web.Controllers.PaisController (Proyecto.Web).
+2024-04-18 23:19:42.501 -06:00 [INF] Executing action method Proyecto.Web.Controllers.PaisController.Index (Proyecto.Web) - Validation state: "Valid"
+2024-04-18 23:19:42.513 -06:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[IdPais], [p].[Descripcion]
+FROM [Pais] AS [p]
+2024-04-18 23:19:42.522 -06:00 [INF] Executed action method Proyecto.Web.Controllers.PaisController.Index (Proyecto.Web), returned result Microsoft.AspNetCore.Mvc.ViewResult in 19.1029ms.
+2024-04-18 23:19:42.524 -06:00 [INF] Executing ViewResult, running view Index.
+2024-04-18 23:19:42.539 -06:00 [INF] Executed ViewResult - view Index executed in 15.8647ms.
+2024-04-18 23:19:42.541 -06:00 [INF] Executed action Proyecto.Web.Controllers.PaisController.Index (Proyecto.Web) in 70.761ms
+2024-04-18 23:19:42.542 -06:00 [INF] Executed endpoint 'Proyecto.Web.Controllers.PaisController.Index (Proyecto.Web)'
+2024-04-18 23:19:42.543 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7084/Pais - 200 null text/html; charset=utf-8 111.9857ms
+2024-04-18 23:19:42.547 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7084/css/autocompleteBS.css - null null
+2024-04-18 23:19:42.549 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7084/js/autocompleteBS.js - null null
+2024-04-18 23:19:42.550 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7084/_framework/aspnetcore-browser-refresh.js - null null
+2024-04-18 23:19:42.551 -06:00 [INF] Executing endpoint 'Proyecto.Web.Controllers.ErrorController.Error (Proyecto.Web)'
+2024-04-18 23:19:42.554 -06:00 [INF] Executing endpoint 'Proyecto.Web.Controllers.ErrorController.Error (Proyecto.Web)'
+2024-04-18 23:19:42.556 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7084/_framework/aspnetcore-browser-refresh.js - 200 13760 application/javascript; charset=utf-8 6.0349ms
+2024-04-18 23:19:42.556 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7084/_vs/browserLink - null null
+2024-04-18 23:19:42.557 -06:00 [INF] Route matched with {action = "Error", controller = "Error"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Error(Int32) on controller Proyecto.Web.Controllers.ErrorController (Proyecto.Web).
+2024-04-18 23:19:42.558 -06:00 [INF] Route matched with {action = "Error", controller = "Error"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Error(Int32) on controller Proyecto.Web.Controllers.ErrorController (Proyecto.Web).
+2024-04-18 23:19:42.588 -06:00 [INF] Executing action method Proyecto.Web.Controllers.ErrorController.Error (Proyecto.Web) - Validation state: "Valid"
+2024-04-18 23:19:42.609 -06:00 [INF] Executed action method Proyecto.Web.Controllers.ErrorController.Error (Proyecto.Web), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.062ms.
+2024-04-18 23:19:42.609 -06:00 [INF] Executing action method Proyecto.Web.Controllers.ErrorController.Error (Proyecto.Web) - Validation state: "Valid"
+2024-04-18 23:19:42.612 -06:00 [INF] Executing ViewResult, running view ErrorDetail.
+2024-04-18 23:19:42.613 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7084/_vs/browserLink - 200 null text/javascript; charset=UTF-8 57.558ms
+2024-04-18 23:19:42.616 -06:00 [INF] Executed ViewResult - view ErrorDetail executed in 4.0844ms.
+2024-04-18 23:19:42.613 -06:00 [INF] Executed action method Proyecto.Web.Controllers.ErrorController.Error (Proyecto.Web), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.0437ms.
+2024-04-18 23:19:42.620 -06:00 [INF] Executed action Proyecto.Web.Controllers.ErrorController.Error (Proyecto.Web) in 55.2821ms
+2024-04-18 23:19:42.621 -06:00 [INF] Executing ViewResult, running view ErrorDetail.
+2024-04-18 23:19:42.621 -06:00 [INF] Executed endpoint 'Proyecto.Web.Controllers.ErrorController.Error (Proyecto.Web)'
+2024-04-18 23:19:42.624 -06:00 [INF] Executed ViewResult - view ErrorDetail executed in 2.9277ms.
+2024-04-18 23:19:42.625 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7084/css/autocompleteBS.css - 404 null text/html; charset=utf-8 77.3018ms
+2024-04-18 23:19:42.626 -06:00 [INF] Executed action Proyecto.Web.Controllers.ErrorController.Error (Proyecto.Web) in 36.6377ms
+2024-04-18 23:19:42.628 -06:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7084/css/autocompleteBS.css, Response status code: 404
+2024-04-18 23:19:42.629 -06:00 [INF] Executed endpoint 'Proyecto.Web.Controllers.ErrorController.Error (Proyecto.Web)'
+2024-04-18 23:19:42.631 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7084/js/autocompleteBS.js - 404 null text/html; charset=utf-8 82.4466ms
+2024-04-18 23:19:42.633 -06:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7084/js/autocompleteBS.js, Response status code: 404
+2024-04-18 23:19:42.639 -06:00 [INF] Request starting HTTP/1.1 GET https://localhost:7084/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map - null null
+2024-04-18 23:19:42.643 -06:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map'. Physical path: 'C:\Users\Ismael\Desktop\Proyecto-Ambiente-Web2\Proyecto\Proyecto.Web\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js.map'
+2024-04-18 23:19:42.644 -06:00 [INF] Request finished HTTP/1.1 GET https://localhost:7084/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map - 200 327261 text/plain 5.002ms
+2024-04-18 23:19:42.950 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7084/Home - null null
+2024-04-18 23:19:42.974 -06:00 [INF] Executing endpoint 'Proyecto.Web.Controllers.HomeController.Index (Proyecto.Web)'
+2024-04-18 23:19:42.975 -06:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller Proyecto.Web.Controllers.HomeController (Proyecto.Web).
+2024-04-18 23:19:42.998 -06:00 [INF] Executing action method Proyecto.Web.Controllers.HomeController.Index (Proyecto.Web) - Validation state: "Valid"
+2024-04-18 23:19:43.000 -06:00 [INF] Executed action method Proyecto.Web.Controllers.HomeController.Index (Proyecto.Web), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.0181ms.
+2024-04-18 23:19:43.001 -06:00 [INF] Executing ViewResult, running view Index.
+2024-04-18 23:19:43.003 -06:00 [INF] Executed ViewResult - view Index executed in 2.1018ms.
+2024-04-18 23:19:43.005 -06:00 [INF] Executed action Proyecto.Web.Controllers.HomeController.Index (Proyecto.Web) in 28.4422ms
+2024-04-18 23:19:43.006 -06:00 [INF] Executed endpoint 'Proyecto.Web.Controllers.HomeController.Index (Proyecto.Web)'
+2024-04-18 23:19:43.007 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7084/Home - 200 null text/html; charset=utf-8 56.8661ms
+2024-04-18 23:19:43.008 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7084/css/autocompleteBS.css - null null
+2024-04-18 23:19:43.009 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7084/js/autocompleteBS.js - null null
+2024-04-18 23:19:43.010 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7084/_framework/aspnetcore-browser-refresh.js - null null
+2024-04-18 23:19:43.012 -06:00 [INF] Executing endpoint 'Proyecto.Web.Controllers.ErrorController.Error (Proyecto.Web)'
+2024-04-18 23:19:43.014 -06:00 [INF] Executing endpoint 'Proyecto.Web.Controllers.ErrorController.Error (Proyecto.Web)'
+2024-04-18 23:19:43.014 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7084/_vs/browserLink - null null
+2024-04-18 23:19:43.016 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7084/_framework/aspnetcore-browser-refresh.js - 200 13760 application/javascript; charset=utf-8 6.7883ms
+2024-04-18 23:19:43.017 -06:00 [INF] Route matched with {action = "Error", controller = "Error"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Error(Int32) on controller Proyecto.Web.Controllers.ErrorController (Proyecto.Web).
+2024-04-18 23:19:43.018 -06:00 [INF] Route matched with {action = "Error", controller = "Error"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Error(Int32) on controller Proyecto.Web.Controllers.ErrorController (Proyecto.Web).
+2024-04-18 23:19:43.029 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7084/_vs/browserLink - 200 null text/javascript; charset=UTF-8 16.0901ms
+2024-04-18 23:19:43.047 -06:00 [INF] Executing action method Proyecto.Web.Controllers.ErrorController.Error (Proyecto.Web) - Validation state: "Valid"
+2024-04-18 23:19:43.064 -06:00 [INF] Executing action method Proyecto.Web.Controllers.ErrorController.Error (Proyecto.Web) - Validation state: "Valid"
+2024-04-18 23:19:43.066 -06:00 [INF] Executed action method Proyecto.Web.Controllers.ErrorController.Error (Proyecto.Web), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.0241ms.
+2024-04-18 23:19:43.067 -06:00 [INF] Executed action method Proyecto.Web.Controllers.ErrorController.Error (Proyecto.Web), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.0218ms.
+2024-04-18 23:19:43.068 -06:00 [INF] Executing ViewResult, running view ErrorDetail.
+2024-04-18 23:19:43.069 -06:00 [INF] Executing ViewResult, running view ErrorDetail.
+2024-04-18 23:19:43.071 -06:00 [INF] Executed ViewResult - view ErrorDetail executed in 3.0042ms.
+2024-04-18 23:19:43.074 -06:00 [INF] Executed ViewResult - view ErrorDetail executed in 4.4013ms.
+2024-04-18 23:19:43.075 -06:00 [INF] Executed action Proyecto.Web.Controllers.ErrorController.Error (Proyecto.Web) in 47.3669ms
+2024-04-18 23:19:43.076 -06:00 [INF] Executed action Proyecto.Web.Controllers.ErrorController.Error (Proyecto.Web) in 28.1045ms
+2024-04-18 23:19:43.077 -06:00 [INF] Executed endpoint 'Proyecto.Web.Controllers.ErrorController.Error (Proyecto.Web)'
+2024-04-18 23:19:43.078 -06:00 [INF] Executed endpoint 'Proyecto.Web.Controllers.ErrorController.Error (Proyecto.Web)'
+2024-04-18 23:19:43.079 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7084/css/autocompleteBS.css - 404 null text/html; charset=utf-8 70.7733ms
+2024-04-18 23:19:43.079 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7084/js/autocompleteBS.js - 404 null text/html; charset=utf-8 70.2954ms
+2024-04-18 23:19:43.082 -06:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7084/css/autocompleteBS.css, Response status code: 404
+2024-04-18 23:19:43.086 -06:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7084/js/autocompleteBS.js, Response status code: 404
+2024-04-18 23:19:43.098 -06:00 [INF] Request starting HTTP/1.1 GET https://localhost:7084/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map - null null
+2024-04-18 23:19:43.102 -06:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map'. Physical path: 'C:\Users\Ismael\Desktop\Proyecto-Ambiente-Web2\Proyecto\Proyecto.Web\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js.map'
+2024-04-18 23:19:43.104 -06:00 [INF] Request finished HTTP/1.1 GET https://localhost:7084/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map - 200 327261 text/plain 6.1902ms
+2024-04-18 23:19:43.402 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7084/Home - null null
+2024-04-18 23:19:43.423 -06:00 [INF] Executing endpoint 'Proyecto.Web.Controllers.HomeController.Index (Proyecto.Web)'
+2024-04-18 23:19:43.424 -06:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller Proyecto.Web.Controllers.HomeController (Proyecto.Web).
+2024-04-18 23:19:43.443 -06:00 [INF] Executing action method Proyecto.Web.Controllers.HomeController.Index (Proyecto.Web) - Validation state: "Valid"
+2024-04-18 23:19:43.445 -06:00 [INF] Executed action method Proyecto.Web.Controllers.HomeController.Index (Proyecto.Web), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.016ms.
+2024-04-18 23:19:43.446 -06:00 [INF] Executing ViewResult, running view Index.
+2024-04-18 23:19:43.448 -06:00 [INF] Executed ViewResult - view Index executed in 1.8354ms.
+2024-04-18 23:19:43.450 -06:00 [INF] Executed action Proyecto.Web.Controllers.HomeController.Index (Proyecto.Web) in 24.7642ms
+2024-04-18 23:19:43.451 -06:00 [INF] Executed endpoint 'Proyecto.Web.Controllers.HomeController.Index (Proyecto.Web)'
+2024-04-18 23:19:43.453 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7084/Home - 200 null text/html; charset=utf-8 50.6005ms
+2024-04-18 23:19:43.454 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7084/css/autocompleteBS.css - null null
+2024-04-18 23:19:43.455 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7084/js/autocompleteBS.js - null null
+2024-04-18 23:19:43.458 -06:00 [INF] Executing endpoint 'Proyecto.Web.Controllers.ErrorController.Error (Proyecto.Web)'
+2024-04-18 23:19:43.456 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7084/_framework/aspnetcore-browser-refresh.js - null null
+2024-04-18 23:19:43.460 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7084/_vs/browserLink - null null
+2024-04-18 23:19:43.461 -06:00 [INF] Route matched with {action = "Error", controller = "Error"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Error(Int32) on controller Proyecto.Web.Controllers.ErrorController (Proyecto.Web).
+2024-04-18 23:19:43.464 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7084/_framework/aspnetcore-browser-refresh.js - 200 13760 application/javascript; charset=utf-8 8.5077ms
+2024-04-18 23:19:43.486 -06:00 [INF] Executing action method Proyecto.Web.Controllers.ErrorController.Error (Proyecto.Web) - Validation state: "Valid"
+2024-04-18 23:19:43.461 -06:00 [INF] Executing endpoint 'Proyecto.Web.Controllers.ErrorController.Error (Proyecto.Web)'
+2024-04-18 23:19:43.491 -06:00 [INF] Executed action method Proyecto.Web.Controllers.ErrorController.Error (Proyecto.Web), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.0475ms.
+2024-04-18 23:19:43.492 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7084/_vs/browserLink - 200 null text/javascript; charset=UTF-8 32.1587ms
+2024-04-18 23:19:43.492 -06:00 [INF] Route matched with {action = "Error", controller = "Error"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Error(Int32) on controller Proyecto.Web.Controllers.ErrorController (Proyecto.Web).
+2024-04-18 23:19:43.493 -06:00 [INF] Executing ViewResult, running view ErrorDetail.
+2024-04-18 23:19:43.512 -06:00 [INF] Executing action method Proyecto.Web.Controllers.ErrorController.Error (Proyecto.Web) - Validation state: "Valid"
+2024-04-18 23:19:43.513 -06:00 [INF] Executed ViewResult - view ErrorDetail executed in 19.4358ms.
+2024-04-18 23:19:43.515 -06:00 [INF] Executed action method Proyecto.Web.Controllers.ErrorController.Error (Proyecto.Web), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.0308ms.
+2024-04-18 23:19:43.516 -06:00 [INF] Executed action Proyecto.Web.Controllers.ErrorController.Error (Proyecto.Web) in 48.0485ms
+2024-04-18 23:19:43.517 -06:00 [INF] Executing ViewResult, running view ErrorDetail.
+2024-04-18 23:19:43.518 -06:00 [INF] Executed endpoint 'Proyecto.Web.Controllers.ErrorController.Error (Proyecto.Web)'
+2024-04-18 23:19:43.521 -06:00 [INF] Executed ViewResult - view ErrorDetail executed in 3.2575ms.
+2024-04-18 23:19:43.521 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7084/css/autocompleteBS.css - 404 null text/html; charset=utf-8 67.2477ms
+2024-04-18 23:19:43.523 -06:00 [INF] Executed action Proyecto.Web.Controllers.ErrorController.Error (Proyecto.Web) in 25.8547ms
+2024-04-18 23:19:43.526 -06:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7084/css/autocompleteBS.css, Response status code: 404
+2024-04-18 23:19:43.527 -06:00 [INF] Executed endpoint 'Proyecto.Web.Controllers.ErrorController.Error (Proyecto.Web)'
+2024-04-18 23:19:43.530 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7084/js/autocompleteBS.js - 404 null text/html; charset=utf-8 75.2315ms
+2024-04-18 23:19:43.533 -06:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7084/js/autocompleteBS.js, Response status code: 404
+2024-04-18 23:19:43.537 -06:00 [INF] Request starting HTTP/1.1 GET https://localhost:7084/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map - null null
+2024-04-18 23:19:43.542 -06:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map'. Physical path: 'C:\Users\Ismael\Desktop\Proyecto-Ambiente-Web2\Proyecto\Proyecto.Web\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js.map'
+2024-04-18 23:19:43.543 -06:00 [INF] Request finished HTTP/1.1 GET https://localhost:7084/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map - 200 327261 text/plain 6.4576ms
+2024-04-18 23:19:46.971 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7084/Factura - null null
+2024-04-18 23:19:46.994 -06:00 [INF] Executing endpoint 'Proyecto.Web.Controllers.FacturaController.Index (Proyecto.Web)'
+2024-04-18 23:19:46.995 -06:00 [INF] Route matched with {action = "Index", controller = "Factura"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller Proyecto.Web.Controllers.FacturaController (Proyecto.Web).
+2024-04-18 23:19:47.017 -06:00 [INF] Executing action method Proyecto.Web.Controllers.FacturaController.Index (Proyecto.Web) - Validation state: "Valid"
+2024-04-18 23:19:47.024 -06:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[IdTarjeta], [t].[DescripcionTarjeta], [t].[Estado]
+FROM [Tarjeta] AS [t]
+2024-04-18 23:19:47.027 -06:00 [INF] Executed action method Proyecto.Web.Controllers.FacturaController.Index (Proyecto.Web), returned result Microsoft.AspNetCore.Mvc.ViewResult in 8.3227ms.
+2024-04-18 23:19:47.028 -06:00 [INF] Executing ViewResult, running view Index.
+2024-04-18 23:19:47.032 -06:00 [INF] Executed ViewResult - view Index executed in 4.1183ms.
+2024-04-18 23:19:47.033 -06:00 [INF] Executed action Proyecto.Web.Controllers.FacturaController.Index (Proyecto.Web) in 36.697ms
+2024-04-18 23:19:47.035 -06:00 [INF] Executed endpoint 'Proyecto.Web.Controllers.FacturaController.Index (Proyecto.Web)'
+2024-04-18 23:19:47.036 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7084/Factura - 200 null text/html; charset=utf-8 64.9834ms
+2024-04-18 23:19:47.039 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7084/css/autocompleteBS.css - null null
+2024-04-18 23:19:47.040 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7084/js/autocompleteBS.js - null null
+2024-04-18 23:19:47.041 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7084/_framework/aspnetcore-browser-refresh.js - null null
+2024-04-18 23:19:47.044 -06:00 [INF] Executing endpoint 'Proyecto.Web.Controllers.ErrorController.Error (Proyecto.Web)'
+2024-04-18 23:19:47.045 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7084/_vs/browserLink - null null
+2024-04-18 23:19:47.042 -06:00 [INF] Executing endpoint 'Proyecto.Web.Controllers.ErrorController.Error (Proyecto.Web)'
+2024-04-18 23:19:47.047 -06:00 [INF] Route matched with {action = "Error", controller = "Error"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Error(Int32) on controller Proyecto.Web.Controllers.ErrorController (Proyecto.Web).
+2024-04-18 23:19:47.050 -06:00 [INF] Route matched with {action = "Error", controller = "Error"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Error(Int32) on controller Proyecto.Web.Controllers.ErrorController (Proyecto.Web).
+2024-04-18 23:19:47.072 -06:00 [INF] Executing action method Proyecto.Web.Controllers.ErrorController.Error (Proyecto.Web) - Validation state: "Valid"
+2024-04-18 23:19:47.046 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7084/_framework/aspnetcore-browser-refresh.js - 200 13760 application/javascript; charset=utf-8 5.8747ms
+2024-04-18 23:19:47.090 -06:00 [INF] Executed action method Proyecto.Web.Controllers.ErrorController.Error (Proyecto.Web), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.0352ms.
+2024-04-18 23:19:47.090 -06:00 [INF] Executing action method Proyecto.Web.Controllers.ErrorController.Error (Proyecto.Web) - Validation state: "Valid"
+2024-04-18 23:19:47.092 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7084/_vs/browserLink - 200 null text/javascript; charset=UTF-8 46.8702ms
+2024-04-18 23:19:47.094 -06:00 [INF] Executing ViewResult, running view ErrorDetail.
+2024-04-18 23:19:47.095 -06:00 [INF] Executed action method Proyecto.Web.Controllers.ErrorController.Error (Proyecto.Web), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.0197ms.
+2024-04-18 23:19:47.099 -06:00 [INF] Executed ViewResult - view ErrorDetail executed in 4.3353ms.
+2024-04-18 23:19:47.100 -06:00 [INF] Executing ViewResult, running view ErrorDetail.
+2024-04-18 23:19:47.101 -06:00 [INF] Executed action Proyecto.Web.Controllers.ErrorController.Error (Proyecto.Web) in 48.2893ms
+2024-04-18 23:19:47.103 -06:00 [INF] Executed ViewResult - view ErrorDetail executed in 2.6499ms.
+2024-04-18 23:19:47.104 -06:00 [INF] Executed endpoint 'Proyecto.Web.Controllers.ErrorController.Error (Proyecto.Web)'
+2024-04-18 23:19:47.105 -06:00 [INF] Executed action Proyecto.Web.Controllers.ErrorController.Error (Proyecto.Web) in 32.0553ms
+2024-04-18 23:19:47.106 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7084/js/autocompleteBS.js - 404 null text/html; charset=utf-8 66.3166ms
+2024-04-18 23:19:47.107 -06:00 [INF] Executed endpoint 'Proyecto.Web.Controllers.ErrorController.Error (Proyecto.Web)'
+2024-04-18 23:19:47.109 -06:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7084/js/autocompleteBS.js, Response status code: 404
+2024-04-18 23:19:47.110 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7084/css/autocompleteBS.css - 404 null text/html; charset=utf-8 70.9626ms
+2024-04-18 23:19:47.114 -06:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7084/css/autocompleteBS.css, Response status code: 404
+2024-04-18 23:19:47.129 -06:00 [INF] Request starting HTTP/1.1 GET https://localhost:7084/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map - null null
+2024-04-18 23:19:47.134 -06:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map'. Physical path: 'C:\Users\Ismael\Desktop\Proyecto-Ambiente-Web2\Proyecto\Proyecto.Web\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js.map'
+2024-04-18 23:19:47.135 -06:00 [INF] Request finished HTTP/1.1 GET https://localhost:7084/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map - 200 327261 text/plain 5.604ms
+2024-04-18 23:19:55.311 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7084/Cliente/GetClienteByName?filtro=is - null null
+2024-04-18 23:19:55.314 -06:00 [INF] Executing endpoint 'Proyecto.Web.Controllers.ClienteController.GetClienteByName (Proyecto.Web)'
+2024-04-18 23:19:55.316 -06:00 [INF] Route matched with {action = "GetClienteByName", controller = "Cliente"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetClienteByName(System.String) on controller Proyecto.Web.Controllers.ClienteController (Proyecto.Web).
+2024-04-18 23:19:55.335 -06:00 [INF] Executing action method Proyecto.Web.Controllers.ClienteController.GetClienteByName (Proyecto.Web) - Validation state: "Valid"
+2024-04-18 23:19:55.355 -06:00 [INF] Executed DbCommand (4ms) [Parameters=[p0='%is%' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+select * from Cliente where Nombre+Apellido1+Apellido2 like  @p0
+2024-04-18 23:19:55.363 -06:00 [INF] Executed action method Proyecto.Web.Controllers.ClienteController.GetClienteByName (Proyecto.Web), returned result Microsoft.AspNetCore.Mvc.JsonResult in 27.3118ms.
+2024-04-18 23:19:55.366 -06:00 [INF] Executing JsonResult, writing value of type 'System.Collections.Generic.List`1[[Proyecto.Application.DTOs.ClienteDTO, Proyecto.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-04-18 23:19:55.385 -06:00 [INF] Executed action Proyecto.Web.Controllers.ClienteController.GetClienteByName (Proyecto.Web) in 67.8128ms
+2024-04-18 23:19:55.387 -06:00 [INF] Executed endpoint 'Proyecto.Web.Controllers.ClienteController.GetClienteByName (Proyecto.Web)'
+2024-04-18 23:19:55.388 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7084/Cliente/GetClienteByName?filtro=is - 200 null application/json; charset=utf-8 76.901ms
+2024-04-18 23:19:59.701 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7084/Cliente/GetClienteByName?filtro=ui - null null
+2024-04-18 23:19:59.705 -06:00 [INF] Executing endpoint 'Proyecto.Web.Controllers.ClienteController.GetClienteByName (Proyecto.Web)'
+2024-04-18 23:19:59.706 -06:00 [INF] Route matched with {action = "GetClienteByName", controller = "Cliente"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetClienteByName(System.String) on controller Proyecto.Web.Controllers.ClienteController (Proyecto.Web).
+2024-04-18 23:19:59.722 -06:00 [INF] Executing action method Proyecto.Web.Controllers.ClienteController.GetClienteByName (Proyecto.Web) - Validation state: "Valid"
+2024-04-18 23:19:59.726 -06:00 [INF] Executed DbCommand (2ms) [Parameters=[p0='%ui%' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+select * from Cliente where Nombre+Apellido1+Apellido2 like  @p0
+2024-04-18 23:19:59.728 -06:00 [INF] Executed action method Proyecto.Web.Controllers.ClienteController.GetClienteByName (Proyecto.Web), returned result Microsoft.AspNetCore.Mvc.JsonResult in 4.9245ms.
+2024-04-18 23:19:59.730 -06:00 [INF] Executing JsonResult, writing value of type 'System.Collections.Generic.List`1[[Proyecto.Application.DTOs.ClienteDTO, Proyecto.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-04-18 23:19:59.731 -06:00 [INF] Executed action Proyecto.Web.Controllers.ClienteController.GetClienteByName (Proyecto.Web) in 23.885ms
+2024-04-18 23:19:59.732 -06:00 [INF] Executed endpoint 'Proyecto.Web.Controllers.ClienteController.GetClienteByName (Proyecto.Web)'
+2024-04-18 23:19:59.733 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7084/Cliente/GetClienteByName?filtro=ui - 200 null application/json; charset=utf-8 32.3266ms
+2024-04-18 23:20:01.116 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7084/Cliente/GetClienteByName?filtro=is - null null
+2024-04-18 23:20:01.118 -06:00 [INF] Executing endpoint 'Proyecto.Web.Controllers.ClienteController.GetClienteByName (Proyecto.Web)'
+2024-04-18 23:20:01.119 -06:00 [INF] Route matched with {action = "GetClienteByName", controller = "Cliente"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetClienteByName(System.String) on controller Proyecto.Web.Controllers.ClienteController (Proyecto.Web).
+2024-04-18 23:20:01.139 -06:00 [INF] Executing action method Proyecto.Web.Controllers.ClienteController.GetClienteByName (Proyecto.Web) - Validation state: "Valid"
+2024-04-18 23:20:01.143 -06:00 [INF] Executed DbCommand (2ms) [Parameters=[p0='%is%' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+select * from Cliente where Nombre+Apellido1+Apellido2 like  @p0
+2024-04-18 23:20:01.145 -06:00 [INF] Executed action method Proyecto.Web.Controllers.ClienteController.GetClienteByName (Proyecto.Web), returned result Microsoft.AspNetCore.Mvc.JsonResult in 4.6712ms.
+2024-04-18 23:20:01.147 -06:00 [INF] Executing JsonResult, writing value of type 'System.Collections.Generic.List`1[[Proyecto.Application.DTOs.ClienteDTO, Proyecto.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-04-18 23:20:01.148 -06:00 [INF] Executed action Proyecto.Web.Controllers.ClienteController.GetClienteByName (Proyecto.Web) in 26.8177ms
+2024-04-18 23:20:01.149 -06:00 [INF] Executed endpoint 'Proyecto.Web.Controllers.ClienteController.GetClienteByName (Proyecto.Web)'
+2024-04-18 23:20:01.150 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7084/Cliente/GetClienteByName?filtro=is - 200 null application/json; charset=utf-8 33.8402ms
+2024-04-18 23:20:11.771 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7084/NFT/GetProductoByName?filtro=Dia - null null
+2024-04-18 23:20:11.774 -06:00 [INF] Executing endpoint 'Proyecto.Web.Controllers.NFTController.GetProductoByName (Proyecto.Web)'
+2024-04-18 23:20:11.778 -06:00 [INF] Route matched with {action = "GetProductoByName", controller = "NFT"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetProductoByName(System.String) on controller Proyecto.Web.Controllers.NFTController (Proyecto.Web).
+2024-04-18 23:20:11.790 -06:00 [INF] Executing action method Proyecto.Web.Controllers.NFTController.GetProductoByName (Proyecto.Web) - Validation state: "Valid"
+2024-04-18 23:20:11.805 -06:00 [INF] Executed DbCommand (5ms) [Parameters=[@__description_0_contains='%Dia%' (Size = 20) (DbType = AnsiString)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[IdNft], [a].[Autor], [a].[Imagen], [a].[Inventario], [a].[Nombre], [a].[Precio]
+FROM [ActivoNFT] AS [a]
+WHERE [a].[Nombre] LIKE @__description_0_contains ESCAPE '\'
+2024-04-18 23:20:11.826 -06:00 [INF] Executed action method Proyecto.Web.Controllers.NFTController.GetProductoByName (Proyecto.Web), returned result Microsoft.AspNetCore.Mvc.JsonResult in 34.8943ms.
+2024-04-18 23:20:11.828 -06:00 [INF] Executing JsonResult, writing value of type 'System.Collections.Generic.List`1[[Proyecto.Application.DTOs.NFTDTO, Proyecto.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-04-18 23:20:11.850 -06:00 [INF] Executed action Proyecto.Web.Controllers.NFTController.GetProductoByName (Proyecto.Web) in 71.0712ms
+2024-04-18 23:20:11.851 -06:00 [INF] Executed endpoint 'Proyecto.Web.Controllers.NFTController.GetProductoByName (Proyecto.Web)'
+2024-04-18 23:20:11.852 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7084/NFT/GetProductoByName?filtro=Dia - 200 null application/json; charset=utf-8 80.6822ms
+2024-04-18 23:20:14.519 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7084/Factura/AddProduct?id=3e7a6640-4a1e-4cd8-a215-1aeac03fec26&cantidad=1 - null null
+2024-04-18 23:20:14.522 -06:00 [INF] Executing endpoint 'Proyecto.Web.Controllers.FacturaController.AddProduct (Proyecto.Web)'
+2024-04-18 23:20:14.525 -06:00 [INF] Route matched with {action = "AddProduct", controller = "Factura"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] AddProduct(System.Guid, Int32) on controller Proyecto.Web.Controllers.FacturaController (Proyecto.Web).
+2024-04-18 23:20:14.538 -06:00 [INF] Executing action method Proyecto.Web.Controllers.FacturaController.AddProduct (Proyecto.Web) - Validation state: "Valid"
+2024-04-18 23:20:14.558 -06:00 [INF] Executed DbCommand (3ms) [Parameters=[@__get_Item_0='3e7a6640-4a1e-4cd8-a215-1aeac03fec26' (Nullable = true)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[IdNft], [a].[Autor], [a].[Imagen], [a].[Inventario], [a].[Nombre], [a].[Precio]
+FROM [ActivoNFT] AS [a]
+WHERE [a].[IdNft] = @__get_Item_0
+2024-04-18 23:20:14.570 -06:00 [INF] Executed action method Proyecto.Web.Controllers.FacturaController.AddProduct (Proyecto.Web), returned result Microsoft.AspNetCore.Mvc.PartialViewResult in 31.5815ms.
+2024-04-18 23:20:14.572 -06:00 [INF] Executing PartialViewResult, running view _DetailFactura.
+2024-04-18 23:20:14.583 -06:00 [INF] Executed PartialViewResult - view _DetailFactura executed in 11.5056ms.
+2024-04-18 23:20:14.585 -06:00 [INF] Executed action Proyecto.Web.Controllers.FacturaController.AddProduct (Proyecto.Web) in 58.5622ms
+2024-04-18 23:20:14.585 -06:00 [INF] Executed endpoint 'Proyecto.Web.Controllers.FacturaController.AddProduct (Proyecto.Web)'
+2024-04-18 23:20:14.587 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7084/Factura/AddProduct?id=3e7a6640-4a1e-4cd8-a215-1aeac03fec26&cantidad=1 - 200 null text/html; charset=utf-8 68.1505ms
+2024-04-18 23:20:16.840 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7084/NFT/GetProductoByName?filtro=mon - null null
+2024-04-18 23:20:16.844 -06:00 [INF] Executing endpoint 'Proyecto.Web.Controllers.NFTController.GetProductoByName (Proyecto.Web)'
+2024-04-18 23:20:16.844 -06:00 [INF] Route matched with {action = "GetProductoByName", controller = "NFT"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetProductoByName(System.String) on controller Proyecto.Web.Controllers.NFTController (Proyecto.Web).
+2024-04-18 23:20:16.860 -06:00 [INF] Executing action method Proyecto.Web.Controllers.NFTController.GetProductoByName (Proyecto.Web) - Validation state: "Valid"
+2024-04-18 23:20:16.865 -06:00 [INF] Executed DbCommand (2ms) [Parameters=[@__description_0_contains='%mon%' (Size = 20) (DbType = AnsiString)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[IdNft], [a].[Autor], [a].[Imagen], [a].[Inventario], [a].[Nombre], [a].[Precio]
+FROM [ActivoNFT] AS [a]
+WHERE [a].[Nombre] LIKE @__description_0_contains ESCAPE '\'
+2024-04-18 23:20:16.875 -06:00 [INF] Executed action method Proyecto.Web.Controllers.NFTController.GetProductoByName (Proyecto.Web), returned result Microsoft.AspNetCore.Mvc.JsonResult in 13.8687ms.
+2024-04-18 23:20:16.876 -06:00 [INF] Executing JsonResult, writing value of type 'System.Collections.Generic.List`1[[Proyecto.Application.DTOs.NFTDTO, Proyecto.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-04-18 23:20:16.884 -06:00 [INF] Executed action Proyecto.Web.Controllers.NFTController.GetProductoByName (Proyecto.Web) in 37.8994ms
+2024-04-18 23:20:16.885 -06:00 [INF] Executed endpoint 'Proyecto.Web.Controllers.NFTController.GetProductoByName (Proyecto.Web)'
+2024-04-18 23:20:16.886 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7084/NFT/GetProductoByName?filtro=mon - 200 null application/json; charset=utf-8 45.9488ms
+2024-04-18 23:20:22.092 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7084/Factura/AddProduct?id=83cf6942-3b08-48a2-8b0a-0b1b06810ab1&cantidad=1 - null null
+2024-04-18 23:20:22.095 -06:00 [INF] Executing endpoint 'Proyecto.Web.Controllers.FacturaController.AddProduct (Proyecto.Web)'
+2024-04-18 23:20:22.096 -06:00 [INF] Route matched with {action = "AddProduct", controller = "Factura"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] AddProduct(System.Guid, Int32) on controller Proyecto.Web.Controllers.FacturaController (Proyecto.Web).
+2024-04-18 23:20:22.109 -06:00 [INF] Executing action method Proyecto.Web.Controllers.FacturaController.AddProduct (Proyecto.Web) - Validation state: "Valid"
+2024-04-18 23:20:22.113 -06:00 [INF] Executed DbCommand (2ms) [Parameters=[@__get_Item_0='83cf6942-3b08-48a2-8b0a-0b1b06810ab1' (Nullable = true)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[IdNft], [a].[Autor], [a].[Imagen], [a].[Inventario], [a].[Nombre], [a].[Precio]
+FROM [ActivoNFT] AS [a]
+WHERE [a].[IdNft] = @__get_Item_0
+2024-04-18 23:20:22.120 -06:00 [INF] Executed action method Proyecto.Web.Controllers.FacturaController.AddProduct (Proyecto.Web), returned result Microsoft.AspNetCore.Mvc.PartialViewResult in 9.8236ms.
+2024-04-18 23:20:22.121 -06:00 [INF] Executing PartialViewResult, running view _DetailFactura.
+2024-04-18 23:20:22.124 -06:00 [INF] Executed PartialViewResult - view _DetailFactura executed in 3.0946ms.
+2024-04-18 23:20:22.125 -06:00 [INF] Executed action Proyecto.Web.Controllers.FacturaController.AddProduct (Proyecto.Web) in 27.6963ms
+2024-04-18 23:20:22.127 -06:00 [INF] Executed endpoint 'Proyecto.Web.Controllers.FacturaController.AddProduct (Proyecto.Web)'
+2024-04-18 23:20:22.127 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7084/Factura/AddProduct?id=83cf6942-3b08-48a2-8b0a-0b1b06810ab1&cantidad=1 - 200 null text/html; charset=utf-8 35.5185ms
+2024-04-18 23:20:26.313 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7084/NFT/GetProductoByName?filtro=monm - null null
+2024-04-18 23:20:26.316 -06:00 [INF] Executing endpoint 'Proyecto.Web.Controllers.NFTController.GetProductoByName (Proyecto.Web)'
+2024-04-18 23:20:26.316 -06:00 [INF] Route matched with {action = "GetProductoByName", controller = "NFT"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetProductoByName(System.String) on controller Proyecto.Web.Controllers.NFTController (Proyecto.Web).
+2024-04-18 23:20:26.328 -06:00 [INF] Executing action method Proyecto.Web.Controllers.NFTController.GetProductoByName (Proyecto.Web) - Validation state: "Valid"
+2024-04-18 23:20:26.332 -06:00 [INF] Executed DbCommand (2ms) [Parameters=[@__description_0_contains='%monm%' (Size = 20) (DbType = AnsiString)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[IdNft], [a].[Autor], [a].[Imagen], [a].[Inventario], [a].[Nombre], [a].[Precio]
+FROM [ActivoNFT] AS [a]
+WHERE [a].[Nombre] LIKE @__description_0_contains ESCAPE '\'
+2024-04-18 23:20:26.334 -06:00 [INF] Executed action method Proyecto.Web.Controllers.NFTController.GetProductoByName (Proyecto.Web), returned result Microsoft.AspNetCore.Mvc.JsonResult in 4.4485ms.
+2024-04-18 23:20:26.335 -06:00 [INF] Executing JsonResult, writing value of type 'System.Collections.Generic.List`1[[Proyecto.Application.DTOs.NFTDTO, Proyecto.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-04-18 23:20:26.336 -06:00 [INF] Executed action Proyecto.Web.Controllers.NFTController.GetProductoByName (Proyecto.Web) in 18.504ms
+2024-04-18 23:20:26.337 -06:00 [INF] Executed endpoint 'Proyecto.Web.Controllers.NFTController.GetProductoByName (Proyecto.Web)'
+2024-04-18 23:20:26.338 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7084/NFT/GetProductoByName?filtro=monm - 200 null application/json; charset=utf-8 25.4293ms
+2024-04-18 23:20:27.936 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7084/NFT/GetProductoByName?filtro=mo - null null
+2024-04-18 23:20:27.938 -06:00 [INF] Executing endpoint 'Proyecto.Web.Controllers.NFTController.GetProductoByName (Proyecto.Web)'
+2024-04-18 23:20:27.939 -06:00 [INF] Route matched with {action = "GetProductoByName", controller = "NFT"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetProductoByName(System.String) on controller Proyecto.Web.Controllers.NFTController (Proyecto.Web).
+2024-04-18 23:20:27.952 -06:00 [INF] Executing action method Proyecto.Web.Controllers.NFTController.GetProductoByName (Proyecto.Web) - Validation state: "Valid"
+2024-04-18 23:20:27.955 -06:00 [INF] Executed DbCommand (1ms) [Parameters=[@__description_0_contains='%mo%' (Size = 20) (DbType = AnsiString)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[IdNft], [a].[Autor], [a].[Imagen], [a].[Inventario], [a].[Nombre], [a].[Precio]
+FROM [ActivoNFT] AS [a]
+WHERE [a].[Nombre] LIKE @__description_0_contains ESCAPE '\'
+2024-04-18 23:20:27.964 -06:00 [INF] Executed action method Proyecto.Web.Controllers.NFTController.GetProductoByName (Proyecto.Web), returned result Microsoft.AspNetCore.Mvc.JsonResult in 11.0666ms.
+2024-04-18 23:20:27.965 -06:00 [INF] Executing JsonResult, writing value of type 'System.Collections.Generic.List`1[[Proyecto.Application.DTOs.NFTDTO, Proyecto.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-04-18 23:20:27.973 -06:00 [INF] Executed action Proyecto.Web.Controllers.NFTController.GetProductoByName (Proyecto.Web) in 32.5856ms
+2024-04-18 23:20:27.974 -06:00 [INF] Executed endpoint 'Proyecto.Web.Controllers.NFTController.GetProductoByName (Proyecto.Web)'
+2024-04-18 23:20:27.975 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7084/NFT/GetProductoByName?filtro=mo - 200 null application/json; charset=utf-8 39.8983ms
+2024-04-18 23:20:33.716 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7084/Factura/AddProduct?id=17a85f24-e269-4b17-96ec-96a3d613dd83&cantidad=1 - null null
+2024-04-18 23:20:33.718 -06:00 [INF] Executing endpoint 'Proyecto.Web.Controllers.FacturaController.AddProduct (Proyecto.Web)'
+2024-04-18 23:20:33.719 -06:00 [INF] Route matched with {action = "AddProduct", controller = "Factura"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] AddProduct(System.Guid, Int32) on controller Proyecto.Web.Controllers.FacturaController (Proyecto.Web).
+2024-04-18 23:20:33.732 -06:00 [INF] Executing action method Proyecto.Web.Controllers.FacturaController.AddProduct (Proyecto.Web) - Validation state: "Valid"
+2024-04-18 23:20:33.735 -06:00 [INF] Executed DbCommand (1ms) [Parameters=[@__get_Item_0='17a85f24-e269-4b17-96ec-96a3d613dd83' (Nullable = true)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[IdNft], [a].[Autor], [a].[Imagen], [a].[Inventario], [a].[Nombre], [a].[Precio]
+FROM [ActivoNFT] AS [a]
+WHERE [a].[IdNft] = @__get_Item_0
+2024-04-18 23:20:33.738 -06:00 [INF] Executed action method Proyecto.Web.Controllers.FacturaController.AddProduct (Proyecto.Web), returned result Microsoft.AspNetCore.Mvc.PartialViewResult in 5.2136ms.
+2024-04-18 23:20:33.739 -06:00 [INF] Executing PartialViewResult, running view _DetailFactura.
+2024-04-18 23:20:33.747 -06:00 [INF] Executed PartialViewResult - view _DetailFactura executed in 7.4591ms.
+2024-04-18 23:20:33.748 -06:00 [INF] Executed action Proyecto.Web.Controllers.FacturaController.AddProduct (Proyecto.Web) in 26.6609ms
+2024-04-18 23:20:33.749 -06:00 [INF] Executed endpoint 'Proyecto.Web.Controllers.FacturaController.AddProduct (Proyecto.Web)'
+2024-04-18 23:20:33.751 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7084/Factura/AddProduct?id=17a85f24-e269-4b17-96ec-96a3d613dd83&cantidad=1 - 200 null text/html; charset=utf-8 35.0727ms
+2024-04-18 23:20:35.784 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7084/NFT/GetProductoByName?filtro=c - null null
+2024-04-18 23:20:35.787 -06:00 [INF] Executing endpoint 'Proyecto.Web.Controllers.NFTController.GetProductoByName (Proyecto.Web)'
+2024-04-18 23:20:35.788 -06:00 [INF] Route matched with {action = "GetProductoByName", controller = "NFT"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetProductoByName(System.String) on controller Proyecto.Web.Controllers.NFTController (Proyecto.Web).
+2024-04-18 23:20:35.800 -06:00 [INF] Executing action method Proyecto.Web.Controllers.NFTController.GetProductoByName (Proyecto.Web) - Validation state: "Valid"
+2024-04-18 23:20:35.804 -06:00 [INF] Executed DbCommand (1ms) [Parameters=[@__description_0_contains='%c%' (Size = 20) (DbType = AnsiString)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[IdNft], [a].[Autor], [a].[Imagen], [a].[Inventario], [a].[Nombre], [a].[Precio]
+FROM [ActivoNFT] AS [a]
+WHERE [a].[Nombre] LIKE @__description_0_contains ESCAPE '\'
+2024-04-18 23:20:35.848 -06:00 [INF] Executed action method Proyecto.Web.Controllers.NFTController.GetProductoByName (Proyecto.Web), returned result Microsoft.AspNetCore.Mvc.JsonResult in 46.6021ms.
+2024-04-18 23:20:35.850 -06:00 [INF] Executing JsonResult, writing value of type 'System.Collections.Generic.List`1[[Proyecto.Application.DTOs.NFTDTO, Proyecto.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-04-18 23:20:35.871 -06:00 [INF] Executed action Proyecto.Web.Controllers.NFTController.GetProductoByName (Proyecto.Web) in 81.5534ms
+2024-04-18 23:20:35.872 -06:00 [INF] Executed endpoint 'Proyecto.Web.Controllers.NFTController.GetProductoByName (Proyecto.Web)'
+2024-04-18 23:20:35.873 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7084/NFT/GetProductoByName?filtro=c - 200 null application/json; charset=utf-8 89.4784ms
